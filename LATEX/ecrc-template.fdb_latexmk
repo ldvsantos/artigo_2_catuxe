@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ecrc-template"] 1770556284.01606 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770556313.03212 0
+["bibtex ecrc-template"] 1770565518.33535 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770565528.41273 0
   "./elsarticle-num.bst" 1770548009 29353 cbd593ca59c003368735a9d8dbd22298 ""
   "./references.bib" 1770554375 16138 4e3c61c5cfce03fc8dbcf9a4e66982fb ""
-  "ecrc-template.aux" 1770556310 8555 811842ee63e107c870acf3dd45698b34 "pdflatex"
+  "ecrc-template.aux" 1770565527 9207 1228ca30fff6aeed793e8c595b125108 "pdflatex"
   (generated)
   "ecrc-template.bbl"
   "ecrc-template.blg"
   (rewritten before read)
-["pdflatex"] 1770556302.88136 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770556313.03382 0
+["pdflatex"] 1770565518.72547 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770565528.41369 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -46,11 +46,13 @@
   "C:/Program Files/MiKTeX/tex/latex/base/size10.clo" 1749467999 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
   "C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
+  "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-def/pdftex.def" 1760360081 19626 23e2822b9b2b5005f4c549ca98b9334d ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty" 1749322634 18363 69bb4f5538964bfea50d1e6d89cbe69f ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty" 1749322634 8118 43b99e52946c33a23f5f43b52d5cc5ec ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/keyval.sty" 1749322634 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
+  "C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1749322634 2885 9c645d672ae17285bba324998918efd8 ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/rotating.sty" 1749322634 7280 936827f0adb7f9ec1f98fe01cba3482b ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty" 1749322634 4023 e66acf578d6b564c4670fb57ff336a7a ""
   "C:/Program Files/MiKTeX/tex/latex/hyperref/hpdftex.def" 1752319040 48140 5e8a3a4aa88ae09b90d524926a067201 ""
@@ -60,6 +62,7 @@
   "C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def" 1752319041 117118 e2f5f7983a43f89e2ffcd709fc59d37c ""
   "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1751005717 30351 a2b09edc6c93a742566b222c33d0278e ""
   "C:/Program Files/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770549707 86709 ef5751f429ee5fb2e69c767a98e4de75 ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0800.pk" 1770554328 15192 58707e8d08129967f7461c0310000c7b ""
   "C:/Users/vidal/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761599437 13311556 fb8160f0c5c7e1f0db4a45838840b6d8 ""
@@ -135,12 +138,12 @@
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxmia.fd" 977342760 334 87436a82076ca2e35cd305f852507afc ""
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "SDlogo-3p.pdf" 1770548009 32832 4c44d6c52fa62ecd42842252126ea898 ""
-  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770556302 42218 89958dc2d08942b9ab7e26163e88d011 ""
-  "ecrc-template.aux" 1770556310 8555 811842ee63e107c870acf3dd45698b34 "pdflatex"
-  "ecrc-template.bbl" 1770556284 9767 9a26ec79c5c04dadf9eaea37913b33be "bibtex ecrc-template"
-  "ecrc-template.out" 1770556310 5941 262c3dd165022ad48120587be7e842de "pdflatex"
-  "ecrc-template.spl" 1770556303 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ecrc-template.tex" 1770556302 42218 89958dc2d08942b9ab7e26163e88d011 ""
+  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770565473 44124 e4ff43f84cf22d92c507cc317936bb23 ""
+  "ecrc-template.aux" 1770565527 9207 1228ca30fff6aeed793e8c595b125108 "pdflatex"
+  "ecrc-template.bbl" 1770565518 9767 9a26ec79c5c04dadf9eaea37913b33be "bibtex ecrc-template"
+  "ecrc-template.out" 1770565527 7574 d8c13358143291413ba28248fa581cc2 "pdflatex"
+  "ecrc-template.spl" 1770565519 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ecrc-template.tex" 1770565473 44124 e4ff43f84cf22d92c507cc317936bb23 ""
   "ecrc.sty" 1770548009 9851 bd6cc48423129411a0ccc52c8fda0e99 ""
   "elsarticle.cls" 1770548009 26250 93bcb641d1d601908e89f8b8c60ceeeb ""
   "elsevier-logo-3p.pdf" 1770548009 1496269 6d2701b6d282a90964ce5f7ec8b6bdcf ""

@@ -48,6 +48,8 @@
 \usepackage[breaklinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
 
 %% The ecrc package defines commands needed for running heads and logos.
 %% For running heads, you can set the journal name, the volume, the starting page and the authors
@@ -281,18 +283,65 @@ Essa perspectiva dialoga com a \textit{capacidade absortiva reversa}, segundo a 
 
 Esta investigação configura-se como estudo metodológico de métodos mistos \cite{Creswell2018}, organizado em duas fases sequenciais integradas, sendo a Fase~1 dedicada à Adaptação Transcultural (pesquisa metodológica, protocolo de \cite{Beaton2000}) e a Fase~2 à Elicitação Delphi (estudo exploratório-descritivo com triangulação qualitativa). A integração segue delineamento sequencial, de modo que o instrumento adaptado na Fase~1 serve como template de referência para as dimensões avaliativas da Fase~2. A Figura~\ref{fig:flowchart} apresenta o fluxo geral do estudo.
 
-\begin{figure}[htbp]
+\begin{figure*}[!htbp]
 \centering
-\fbox{\parbox{0.85\textwidth}{\centering\vspace{1.5em}%
-\textbf{[Fluxograma do Processo de Adaptação e Elicitação]}\\[0.5em]
-Fase~1. Etapa~1 (T1+T2) $\rightarrow$ Etapa~2 (T-12) $\rightarrow$ Etapa~3 (BT1+BT2) $\rightarrow$\\
-Etapa~4 (Comitê 8--12) $\rightarrow$ Etapa~5 (Pré-teste 30--40) $\rightarrow$ Etapa~6 (WOCAT-SLM-QBR)\\[0.3em]
-Fase~2. Rod.~1 (Divergência) $\rightarrow$ Rod.~2 (Convergência) $\rightarrow$ Rod.~3 (Consenso)\\
-$\rightarrow$ Triangulação (Entrevistas) $\rightarrow$ Variáveis validadas para IVB
-\vspace{1.5em}}}
-\caption{Fluxograma do processo integrado de adaptação transcultural (Fase~1) e elicitação Delphi (Fase~2) do questionário WOCAT-SLM.}
+\begin{tikzpicture}[
+  node distance=0.4cm and 0.2cm,
+  every node/.style={font=\footnotesize},
+  phase/.style={rectangle, rounded corners=3pt, draw=black!70, fill=black!8,
+    minimum height=0.55cm, text width=2.1cm, align=center, font=\footnotesize\bfseries},
+  stepbox/.style={rectangle, rounded corners=2pt, draw=black!60, fill=white,
+    minimum height=0.7cm, text width=1.85cm, align=center, font=\scriptsize},
+  output/.style={rectangle, rounded corners=2pt, draw=black!80, fill=black!12,
+    minimum height=0.7cm, text width=2.0cm, align=center,
+    font=\scriptsize\bfseries},
+  arr/.style={-{Stealth[length=2.5pt]}, thick, black!65},
+  dashline/.style={-{Stealth[length=2.5pt]}, thick, black!50, dashed},
+  phaselabel/.style={font=\scriptsize\itshape, text=black!60}
+]
+% ---- FASE 1 ----
+\node[phase] (f1) {Fase 1\\Adapta\c{c}\~ao Transcultural};
+\node[stepbox, right=0.5cm of f1]  (e1) {Etapa 1\\Tradu\c{c}\~ao\\(T1 + T2)};
+\node[stepbox, right=of e1]        (e2) {Etapa 2\\S\'intese\\(T-12)};
+\node[stepbox, right=of e2]        (e3) {Etapa 3\\Retrotradu\c{c}\~ao\\(BT1 + BT2)};
+\draw[arr] (f1) -- (e1);
+\draw[arr] (e1) -- (e2);
+\draw[arr] (e2) -- (e3);
+% segunda linha fase 1
+\node[stepbox, below=0.55cm of e1]  (e4) {Etapa 4\\Comit\^e\\(10 membros)};
+\node[stepbox, right=of e4]        (e5) {Etapa 5\\Pr\'e-teste\\($n=30$)};
+\node[output, right=of e5]      (e6) {Etapa 6\\WOCAT-SLM-QBR};
+\draw[arr] (e3.south) -- ++(0,-0.275) -| (e4.north);
+\draw[arr] (e4) -- (e5);
+\draw[arr] (e5) -- (e6);
+% ---- FASE 2 ----
+\node[phase, below=1.0cm of f1 |- e4.south] (f2) {Fase 2\\Elicita\c{c}\~ao Delphi};
+\node[stepbox, right=0.5cm of f2]  (r1) {Rodada 1\\Diverg\^encia\\(41 proposi\c{c}\~oes)};
+\node[stepbox, right=of r1]        (r2) {Rodada 2\\Converg\^encia\\($Md\geq 4$)};
+\node[stepbox, right=of r2]        (r3) {Rodada 3\\Consenso\\($W=0{,}74$)};
+\draw[arr] (f2) -- (r1);
+\draw[arr] (r1) -- (r2);
+\draw[arr] (r2) -- (r3);
+% segunda linha fase 2
+\node[stepbox, below=0.55cm of r1]  (tr) {Triangula\c{c}\~ao\\Entrevistas\\($n=18$)};
+\node[output, right=of tr]      (iv) {26 Vari\'aveis\\validadas $\rightarrow$ IVB};
+\draw[arr] (r3.south) -- ++(0,-0.275) -| (tr.north);
+\draw[arr] (tr) -- (iv);
+% conector entre fases
+\draw[dashline] (e6.south) -- ++(0,-0.35) -| (f2.north);
+% backgrounds
+\begin{scope}[on background layer]
+  \node[draw=black!25, fill=blue!3, rounded corners=4pt,
+    fit=(f1)(e1)(e2)(e3)(e4)(e5)(e6),
+    inner xsep=4pt, inner ysep=6pt] {};
+  \node[draw=black!25, fill=orange!3, rounded corners=4pt,
+    fit=(f2)(r1)(r2)(r3)(tr)(iv),
+    inner xsep=4pt, inner ysep=6pt] {};
+\end{scope}
+\end{tikzpicture}
+\caption{Fluxograma do processo integrado de adapta\c{c}\~ao transcultural (Fase~1) e elicita\c{c}\~ao Delphi (Fase~2) do question\'ario WOCAT-SLM.}
 \label{fig:flowchart}
-\end{figure}
+\end{figure*}
 
 % ============================================================
 % FASE 1: ADAPTAÇÃO TRANSCULTURAL

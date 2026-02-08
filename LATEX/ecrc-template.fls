@@ -135,6 +135,14 @@ INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecoun
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
@@ -318,7 +326,6 @@ INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\txsyc.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\txsyc.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\txexa.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\txexa.tfm
-INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\t1xi.tfm
 INPUT .\elsevier-logo-3p.pdf
 INPUT .\elsevier-logo-3p.pdf
 INPUT .\elsevier-logo-3p.pdf
@@ -379,6 +386,7 @@ INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxi.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\vf\public\txfonts\t1xr.vf
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxptmr.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxr.tfm
+INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\t1xi.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\vf\public\txfonts\t1xi.vf
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxptmri.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxi.tfm
@@ -399,6 +407,9 @@ INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxmi.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxptmri.tfm
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\vf\public\txfonts\tcxr.vf
 INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtcxr.tfm
+INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\vf\public\txfonts\t1xr.vf
+INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxptmr.tfm
+INPUT C:\Users\vidal\AppData\Roaming\MiKTeX\fonts\tfm\public\txfonts\rtxr.tfm
 INPUT .\ecrc-template.bbl
 INPUT .\ecrc-template.bbl
 INPUT ecrc-template.bbl
