@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.27)  8 FEB 2026 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.27)  8 FEB 2026 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,7 +1038,7 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 )
 (ecrc-template.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 15.
+(babel)             Reported on input line 19.
 )
 \openout1 = `ecrc-template.aux'.
 
@@ -1200,25 +1200,25 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 193.
 
 
-<elsevier-logo-3p.pdf, id=139, 54.08205pt x 59.7432pt>
+<elsevier-logo-3p.pdf, id=150, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 199.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 200.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
-<SDlogo-3p.pdf, id=140, 169.8345pt x 33.9669pt>
+<SDlogo-3p.pdf, id=151, 169.8345pt x 33.9669pt>
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 199.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 200.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 199.
+(Font)              scaled to size 17.09995pt on input line 200.
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 199.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 200.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 199.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 200.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1238,34 +1238,34 @@ Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 [3]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 253.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 250.
 
-Underfull \hbox (badness 3612) in paragraph at lines 255--256
+Underfull \hbox (badness 3612) in paragraph at lines 252--253
 []\T1/txr/m/n/9 Autenticidade, sig-ni-fi-cado ri-tual,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []\T1/txr/m/n/9 Agrobiodiversidade, re-si-li-ên-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []\T1/txr/m/n/9 Econômica-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []\T1/txr/m/n/9 Institucional-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 258--258
+Underfull \hbox (badness 1377) in paragraph at lines 255--255
 []\T1/txr/m/n/9 Ÿ5.6 Ca-rac-te-rís-ti-cas; Ÿ5.8
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 260--260
+Underfull \hbox (badness 4608) in paragraph at lines 257--257
 []\T1/txr/m/n/9 Ÿ5.9 In-fra-es-tru-tura; Ÿ6.1
  []
 
@@ -1273,43 +1273,43 @@ Underfull \hbox (badness 4608) in paragraph at lines 260--260
 
 [4]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 306.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 303.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <7> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 316.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 313.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 354.
+(hyperref)                removing `math shift' on input line 351.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 354.
+(hyperref)                removing `\rightarrow' on input line 351.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 354.
+(hyperref)                removing `math shift' on input line 351.
 
 
 
 [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 364.
+(hyperref)                removing `math shift' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 364.
+(hyperref)                removing `\rightarrow' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 364.
+(hyperref)                removing `math shift' on input line 361.
 
 
 
 [6]
 
 [7]
-Overfull \hbox (7.59018pt too wide) in paragraph at lines 428--429
+Overfull \hbox (7.59018pt too wide) in paragraph at lines 425--426
 []\T1/txr/m/n/10 Para ava-liar a ro-bus-tez nu-mé-rica do in-di-ca-dor com-post
 o frente a in-cer-te-zas nos pa-râ-me-tros de per-ti-nên-cia, empregou-
  []
@@ -1327,37 +1327,166 @@ ive ad-van-tage.  Jour-nal of Ma-na-ge-ment 17, 99--120.  doi:[]$\T1/cmtt/m/n/8
 
 
 
-[10])
+[10]) (appendix-wocat.tex
 
-[11] (ecrc-template.aux)
+[11]
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+
+[13]
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.145 ...on{Tipos de uso da terra e subcategorias}
+                                                  
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]$\U/msa/m/n/9 ^^C$ \T1/txr/m/n/9 As-sen-ta-men-
+ []
+
+
+
+[14]
+Underfull \hbox (badness 2384) in paragraph at lines 234--235
+\T1/txr/m/n/9 (associadas a cul-ti-vos
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 234--235
+\T1/txr/m/n/9 nal-mente; curta du-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--242
+\T1/txr/m/n/9 A2: Ma-té-ria or-gâ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--251
+[]\T1/txr/m/n/9 V1: Co-ber-tura ar-bó-
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 247--251
+\T1/txr/m/n/9 V2: Gra-mí-neas e her-bá-ceas
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 247--251
+\T1/txr/m/n/9 V4: Subs-ti-tu-i-ção/remoção de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/txr/m/n/9 (permanentes; re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/txr/m/n/9 que-rem in-ves-ti-mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/txr/m/n/9 ta-ção de terra e/ou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--266
+\T1/txr/m/n/9 S6: Mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--266
+\T1/txr/m/n/9 S9: Abri-gos para plan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--277
+\T1/txr/m/n/9 M2: Mu-dança de ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--277
+\T1/txr/m/n/9 M3: Dis-po-si-ção con-forme
+ []
+
+
+
+[15]
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+
+[17]
+
+[18]
+Overfull \hbox (13.75017pt too wide) in paragraph at lines 499--510
+\T1/txr/m/it/10 Mu-dan-ças cli-má-ti-cas e re-du-ção de risco de de-sas-tres: \
+T1/txr/m/n/10 im-pac-tos de en-chen-tes, des-li-za-men-tos, se-cas, ci-clo-nes/
+tempestades,
+ []
+
+
+
+[19]
+
+[20]
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+)
+
+[22]
+
+[23] (ecrc-template.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 0DB4309D930579700FAEA6B219E6CBEC;8411.
+(rerunfilecheck)             Checksum: B4F8D3FDE98C0540E92A77155B114BB0;8655.
  ) 
 Here is how much of TeX's memory you used:
- 25762 strings out of 468081
- 467790 string characters out of 5435855
- 886195 words of memory out of 5000000
- 53840 multiletter control sequences out of 15000+600000
+ 25853 strings out of 468081
+ 468911 string characters out of 5435855
+ 888835 words of memory out of 5000000
+ 53854 multiletter control sequences out of 15000+600000
  725558 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,87p,1632b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1000.pk> <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt0800.pk><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts
-/rtcxr.pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rt
-xi.pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxmi.
-pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb>
-<C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/
-Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKT
-eX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (11 pages, 261354 bytes).
+0\ectt0800.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
+10.pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtcxr.
+pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb>
+<C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/
+Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Use
+rs/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/v
+idal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.
+pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ecrc-template.pdf (23 pages, 322789 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 183 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
