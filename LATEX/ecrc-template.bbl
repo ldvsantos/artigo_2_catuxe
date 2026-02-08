@@ -1,0 +1,229 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Nonaka1995}
+I.~Nonaka, H.~Takeuchi, The Knowledge-Creating Company, Oxford University
+  Press, New York, 1995.
+
+\bibitem{CohenLevinthal1990}
+W.~M. Cohen, D.~A. Levinthal, Absorptive capacity: A new perspective on
+  learning and innovation, Administrative Science Quarterly 35~(1) (1990)
+  128--152.
+\newblock \href {http://dx.doi.org/10.2307/2393553}
+  {\path{doi:10.2307/2393553}}.
+
+\bibitem{Liniger2019}
+H.~Liniger, G.~Schwilch, M.~Gurtner, R.~Mekdaschi~Studer, C.~Hauert, G.~van
+  Lynden, W.~Critchley, {WOCAT}: Questionnaire on sustainable land management
+  ({SLM}) technologies, in: WOCAT Global SLM Database, CDE, University of Bern,
+  Bern, Switzerland, 2019, version 2019. Available at:
+  \url{https://www.wocat.net}.
+
+\bibitem{Schwilch2012}
+G.~Schwilch, F.~Bachmann, H.~Liniger, Appraising and selecting conservation
+  measures to mitigate desertification and land degradation based on
+  stakeholder participation and global best practices, Land Degradation \&
+  Development 23~(2) (2012) 160--174.
+\newblock \href {http://dx.doi.org/10.1002/ldr.1069}
+  {\path{doi:10.1002/ldr.1069}}.
+
+\bibitem{Rist2006}
+S.~Rist, F.~Dahdouh-Guebas, Ethnosciences -- a step towards the integration of
+  scientific and indigenous forms of knowledge in the management of natural
+  resources for the future, Environment, Development and Sustainability 8
+  (2006) 467--493.
+\newblock \href {http://dx.doi.org/10.1007/s10668-006-9050-7}
+  {\path{doi:10.1007/s10668-006-9050-7}}.
+
+\bibitem{Quave2014}
+C.~L. Quave, A.~Pieroni, A reservoir of ethnobotanical knowledge informs
+  resilient food security and health strategies in the {Balkans}, Nature Plants
+  1 (2015) 14021.
+\newblock \href {http://dx.doi.org/10.1038/nplants.2014.21}
+  {\path{doi:10.1038/nplants.2014.21}}.
+
+\bibitem{Almeida2011}
+A.~W. B.~d. Almeida, Quilombolas e novas etnias, Editora da Universidade
+  Estadual do Amazonas, Manaus, 2011.
+
+\bibitem{Santos2007}
+B.~d. Santos, Renovar a Teoria Crítica e Reinventar a Emancipação Social,
+  Boitempo, São Paulo, 2007.
+
+\bibitem{Toledo2008}
+V.~M. Toledo, N.~Barrera-Bassols, La Memoria Biocultural: La Importancia
+  Ecológica de las Sabidurías Tradicionales, Icaria, Barcelona, 2008.
+
+\bibitem{Herdman1999}
+M.~Herdman, J.~Fox-Rushby, X.~Badia, A model of equivalence in the cultural
+  adaptation of {HRQoL} instruments: the universalist approach, Quality of Life
+  Research 8~(4) (1999) 323--335.
+\newblock \href {http://dx.doi.org/10.1023/A:1008866418851}
+  {\path{doi:10.1023/A:1008866418851}}.
+
+\bibitem{Guillemin1993}
+F.~Guillemin, C.~Bombardier, D.~Beaton, Cross-cultural adaptation of
+  health-related quality of life measures: literature review and proposed
+  guidelines, Journal of Clinical Epidemiology 46~(12) (1993) 1417--1432.
+\newblock \href {http://dx.doi.org/10.1016/0895-4356(93)90142-N}
+  {\path{doi:10.1016/0895-4356(93)90142-N}}.
+
+\bibitem{Edvinsson1997}
+L.~Edvinsson, M.~S. Malone, Intellectual Capital: Realizing Your Company's True
+  Value by Finding Its Hidden Brainpower, HarperBusiness, New York, 1997.
+
+\bibitem{Pulic2000}
+A.~Pulic, {VAIC}\texttrademark{} -- an accounting tool for {IC} management,
+  International Journal of Technology Management 20~(5--8) (2000) 702--714.
+\newblock \href {http://dx.doi.org/10.1504/IJTM.2000.002891}
+  {\path{doi:10.1504/IJTM.2000.002891}}.
+
+\bibitem{Barney1991}
+J.~Barney, Firm resources and sustained competitive advantage, Journal of
+  Management 17~(1) (1991) 99--120.
+\newblock \href {http://dx.doi.org/10.1177/014920639101700108}
+  {\path{doi:10.1177/014920639101700108}}.
+
+\bibitem{Polanyi1966}
+M.~Polanyi, The Tacit Dimension, Doubleday, Garden City, NY, 1966.
+
+\bibitem{Linstone1975}
+H.~A. Linstone, M.~Turoff, The Delphi Method: Techniques and Applications,
+  Addison-Wesley, Reading, MA, 1975.
+
+\bibitem{Rowe1999}
+G.~Rowe, G.~Wright, The delphi technique as a forecasting tool: issues and
+  analysis, International Journal of Forecasting 15~(4) (1999) 353--375.
+\newblock \href {http://dx.doi.org/10.1016/S0169-2070(99)00018-7}
+  {\path{doi:10.1016/S0169-2070(99)00018-7}}.
+
+\bibitem{Diamond2014}
+I.~R. Diamond, R.~C. Grant, B.~M. Feldman, P.~B. Pencharz, S.~C. Ling, A.~M.
+  Moore, P.~W. Wales, Defining consensus: a systematic review recommends
+  methodologic criteria for reporting of {Delphi} studies, Journal of Clinical
+  Epidemiology 67~(4) (2014) 401--409.
+\newblock \href {http://dx.doi.org/10.1016/j.jclinepi.2013.12.002}
+  {\path{doi:10.1016/j.jclinepi.2013.12.002}}.
+
+\bibitem{Pike1967}
+K.~L. Pike, Etic and emic standpoints for the description of behavior, Language
+  and Thought (1967) 28--36In: D.C. Hildum (Ed.).
+
+\bibitem{Beaton2000}
+D.~E. Beaton, C.~Bombardier, F.~Guillemin, M.~B. Ferraz, Guidelines for the
+  process of cross-cultural adaptation of self-report measures, Spine 25~(24)
+  (2000) 3186--3191.
+
+\bibitem{Berkes2017}
+F.~Berkes, Sacred Ecology, 4th Edition, Routledge, New York, 2017.
+
+\bibitem{Hasson2000}
+F.~Hasson, S.~Keeney, H.~McKenna, Research guidelines for the {Delphi} survey
+  technique, Journal of Advanced Nursing 32~(4) (2000) 1008--1015.
+\newblock \href {http://dx.doi.org/10.1046/j.1365-2648.2000.t01-1-01567.x}
+  {\path{doi:10.1046/j.1365-2648.2000.t01-1-01567.x}}.
+
+\bibitem{Schmidt2014}
+R.~C. Schmidt, Managing {Delphi} surveys using nonparametric statistical
+  techniques, Decision Sciences 28~(3) (1997) 763--774.
+\newblock \href {http://dx.doi.org/10.1111/j.1540-5915.1997.tb01330.x}
+  {\path{doi:10.1111/j.1540-5915.1997.tb01330.x}}.
+
+\bibitem{VonDerGracht2012}
+H.~A. von~der Gracht, Consensus measurement in {Delphi} studies: Review and
+  implications for future quality assurance, Technological Forecasting and
+  Social Change 79~(8) (2012) 1525--1536.
+\newblock \href {http://dx.doi.org/10.1016/j.techfore.2012.04.013}
+  {\path{doi:10.1016/j.techfore.2012.04.013}}.
+
+\bibitem{Hernandez-Nieto2002}
+R.~A. Hern{\'a}ndez-Nieto, Contribuciones al an{\'a}lisis estad{\'i}stico,
+  Universidad de los Andes/IESINFO, M{\'e}rida, Venezuela, 2002.
+
+\bibitem{Ostrom1990}
+E.~Ostrom, Governing the Commons: The Evolution of Institutions for Collective
+  Action, Cambridge University Press, Cambridge, 1990.
+
+\bibitem{Altieri1995}
+M.~A. Altieri, Agroecology: The Science of Sustainable Agriculture, 2nd
+  Edition, Westview Press, Boulder, CO, 1995.
+
+\bibitem{ISO30401}
+{International Organization for Standardization}, {ISO} 30401:2018 -- knowledge
+  management systems -- requirements, geneva: ISO (2018).
+
+\bibitem{Creswell2018}
+J.~W. Creswell, J.~D. Creswell, Research Design: Qualitative, Quantitative, and
+  Mixed Methods Approaches, 5th Edition, SAGE Publications, Thousand Oaks, CA,
+  2018.
+
+\bibitem{ITC2017}
+{International Test Commission}, {ITC} guidelines for translating and adapting
+  tests (second edition), available at: \url{https://www.intestcom.org/}
+  (2017).
+
+\bibitem{Fleiss1971}
+J.~L. Fleiss, Measuring nominal scale agreement among many raters,
+  Psychological Bulletin 76~(5) (1971) 378--382.
+\newblock \href {http://dx.doi.org/10.1037/h0031619}
+  {\path{doi:10.1037/h0031619}}.
+
+\bibitem{Willis2005}
+G.~B. Willis, Cognitive Interviewing: A Tool for Improving Questionnaire
+  Design, Sage Publications, Thousand Oaks, CA, 2005.
+
+\bibitem{Patton2015}
+M.~Q. Patton, Qualitative Research \& Evaluation Methods, 4th Edition, SAGE
+  Publications, Thousand Oaks, CA, 2015.
+
+\bibitem{Braun2006}
+V.~Braun, V.~Clarke, Using thematic analysis in psychology, Qualitative
+  Research in Psychology 3~(2) (2006) 77--101.
+\newblock \href {http://dx.doi.org/10.1191/1478088706qp063oa}
+  {\path{doi:10.1191/1478088706qp063oa}}.
+
+\bibitem{Glaser1967}
+B.~G. Glaser, A.~L. Strauss, The Discovery of Grounded Theory: Strategies for
+  Qualitative Research, Aldine, Chicago, 1967.
+
+\bibitem{Tidd2005}
+J.~Tidd, J.~R. Bessant, K.~Pavitt, Managing Innovation: Integrating
+  Technological, Market and Organizational Change, 3rd Edition, John Wiley \&
+  Sons, Chichester, 2005.
+
+\bibitem{Lev2001}
+B.~Lev, Intangibles: Management, Measurement, and Reporting, Brookings
+  Institution Press, Washington, DC, 2001.
+
+\bibitem{Belletti2015}
+G.~Belletti, A.~Marescotti, J.-M. Touzard, Geographical indications, public
+  goods, and sustainable development: The roles of actors' strategies and
+  public policies, World Development 98 (2017) 45--57.
+\newblock \href {http://dx.doi.org/10.1016/j.worlddev.2015.05.004}
+  {\path{doi:10.1016/j.worlddev.2015.05.004}}.
+
+\bibitem{Teece1986}
+D.~J. Teece, Profiting from technological innovation: Implications for
+  integration, collaboration, licensing and public policy, Research Policy
+  15~(6) (1986) 285--305.
+\newblock \href {http://dx.doi.org/10.1016/0048-7333(86)90027-2}
+  {\path{doi:10.1016/0048-7333(86)90027-2}}.
+
+\bibitem{ISO56005}
+{International Organization for Standardization}, {ISO} 56005:2020 --
+  innovation management -- tools and methods for intellectual property
+  management -- guidance, geneva: ISO (2020).
+
+\bibitem{Costanza1997}
+R.~Costanza, R.~d'Arge, R.~de~Groot, S.~Farber, M.~Grasso, B.~Hannon,
+  K.~Limburg, S.~Naeem, R.~V. O'Neill, J.~Paruelo, R.~G. Raskin, P.~Sutton,
+  M.~van~den Belt, The value of the world's ecosystem services and natural
+  capital, Nature 387 (1997) 253--260.
+\newblock \href {http://dx.doi.org/10.1038/387253a0}
+  {\path{doi:10.1038/387253a0}}.
+
+\end{thebibliography}

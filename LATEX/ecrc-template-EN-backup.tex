@@ -1,0 +1,450 @@
+
+% Template for Elsevier CRC journal article
+% version 1.2 dated 09 May 2011
+
+% This file (c) 2009-2011 Elsevier Ltd.  Modifications may be freely made,
+% provided the edited file is saved under a different name
+
+% This file contains modifications for Procedia Computer Science
+% but may easily be adapted to other journals
+
+% Changes since version 1.1
+% - added "procedia" option compliant with ecrc.sty version 1.2a
+%   (makes the layout approximately the same as the Word CRC template)
+% - added example for generating copyright line in abstract
+
+%-----------------------------------------------------------------------------------
+
+%% This template uses the elsarticle.cls document class and the extension package ecrc.sty
+%% For full documentation on usage of elsarticle.cls, consult the documentation "elsdoc.pdf"
+%% Further resources available at http://www.elsevier.com/latex
+
+%-----------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                          %%
+%% Important note on usage                                  %%
+%% -----------------------                                  %%
+%% This file should normally be compiled with PDFLaTeX      %%
+%% Using standard LaTeX should work but may produce clashes %%
+%%                                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The '3p' and 'times' class options of elsarticle are used for Elsevier CRC
+%% Add the 'procedia' option to approximate to the Word template
+%\documentclass[3p,times,procedia]{elsarticle}
+\documentclass[3p,times]{elsarticle}
+
+%% The `ecrc' package must be called to make the CRC functionality available
+\usepackage{ecrc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[breaklinks]{hyperref}
+\usepackage{enumitem}
+
+%% The ecrc package defines commands needed for running heads and logos.
+%% For running heads, you can set the journal name, the volume, the starting page and the authors
+
+%% set the volume if you know. Otherwise `00'
+\volume{00}
+
+%% set the starting page if not 1
+\firstpage{1}
+
+%% Give the name of the journal
+\journalname{Procedia Computer Science}
+
+%% Give the author list to appear in the running head
+%% Example \runauth{C.V. Radhakrishnan et al.}
+\runauth{}
+
+%% The choice of journal logo is determined by the \jid and \jnltitlelogo commands.
+%% A user-supplied logo with the name <\jid>logo.pdf will be inserted if present.
+%% e.g. if \jid{yspmi} the system will look for a file yspmilogo.pdf
+%% Otherwise the content of \jnltitlelogo will be set between horizontal lines as a default logo
+
+%% Give the abbreviation of the Journal.  Contact the journal editorial office if in any doubt
+\jid{procs}
+
+%% Give a short journal name for the dummy logo (if needed)
+\jnltitlelogo{Procedia Computer Science}
+
+%% Provide the copyright line to appear in the abstract
+%% Usage:
+%   \CopyrightLine[<text-before-year>]{<year>}{<restt-of-the-copyright-text>}
+%   \CopyrightLine[Crown copyright]{2011}{Published by Elsevier Ltd.}
+%   \CopyrightLine{2011}{Elsevier Ltd. All rights reserved}
+\CopyrightLine{2011}{Published by Elsevier Ltd.}
+
+%% Hereafter the template follows `elsarticle'.
+%% For more details see the existing template files elsarticle-template-harv.tex and elsarticle-template-num.tex.
+
+%% Elsevier CRC generally uses a numbered reference style
+%% For this, the conventions of elsarticle-template-num.tex should be followed (included below)
+%% If using BibTeX, use the style file elsarticle-num.bst
+
+%% End of ecrc-specific commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+%% \usepackage{lineno}
+
+%% natbib.sty is loaded by default. However, natbib options can be
+%% provided with \biboptions{...} command. Following options are
+%% valid:
+
+%%   round  -  round parentheses are used (default)
+%%   square -  square brackets are used   [option]
+%%   curly  -  curly braces are used      {option}
+%%   angle  -  angle brackets are used    <option>
+%%   semicolon  -  multiple citations separated by semi-colon
+%%   colon  - same as semicolon, an earlier confusion
+%%   comma  -  separated by comma
+%%   numbers-  selects numerical citations
+%%   super  -  numerical citations as superscripts
+%%   sort   -  sorts multiple citations according to order in ref. list
+%%   sort&compress   -  like sort, but also compresses numerical citations
+%%   compress - compresses without sorting
+%%
+%% \biboptions{comma,round}
+
+% \biboptions{}
+
+% if you have landscape tables
+\usepackage[figuresright]{rotating}
+
+% put your own definitions here:
+%   \newcommand{\cZ}{\cal{Z}}
+%   \newtheorem{def}{Definition}[section]
+%   ...
+
+% add words to TeX's hyphenation exception list
+%\hyphenation{author another created financial paper re-commend-ed Post-Script}
+
+% declarations for front matter
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for the associated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for the associated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for the associated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%%
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \address{Address\fnref{label3}}
+%% \fntext[label3]{}
+
+\dochead{}
+%% Use \dochead if there is an article header, e.g. \dochead{Short communication}
+%% \dochead can also be used to include a conference title, if directed by the editors
+%% e.g. \dochead{17th International Conference on Dynamical Processes in Excited States of Solids}
+
+\title{Cross-Cultural Adaptation of the WOCAT-SLM Questionnaire for Assessing Traditional Agroecological Systems in Brazilian Quilombola Communities}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{<author name>}
+%% \address[label1]{<address>}
+%% \address[label2]{<address>}
+
+\author[a]{Catuxe Varjão de Santana Oliveira\corref{cor1}}
+\ead{catuxe@academico.ufs.br}
+\author[b]{Luiz Diego Vidal Santos}
+\ead{ldvsantos@uefs.br}
+\author[a]{Paulo Roberto Gagliardi}
+
+\cortext[cor1]{Corresponding author.}
+\address[a]{Graduate Program in Intellectual Property Science (PPGPI), Federal University of Sergipe (UFS), São Cristóvão, SE, Brazil}
+\address[b]{State University of Feira de Santana (UEFS), Feira de Santana, BA, Brazil}
+
+\begin{abstract}
+Standardized assessment of sustainable land management (SLM) practices in culturally distinct contexts requires rigorous cross-cultural adaptation that ensures semantic, idiomatic, experiential, and conceptual equivalence. The WOCAT (\textit{World Overview of Conservation Approaches and Technologies}) questionnaire, developed by the Centre for Development and Environment (University of Bern) and adopted by FAO and UNCCD, constitutes the principal global reference for SLM technology documentation, yet no culturally adapted version exists for Brazilian traditional communities. This study describes the cross-cultural adaptation of the WOCAT-SLM Technology assessment module for application in quilombola communities of the Semiárido Nordeste~II Identity Territory (Bahia, Brazil), following the Beaton~et~al.\ six-stage protocol complemented by International Test Commission (ITC) guidelines. The process involved: (1)~forward translation by two independent translators, (2)~synthesis of translations, (3)~back-translation by two translators blind to the original, (4)~expert committee review including masters of traditional knowledge, agroecology researchers, and IP managers, (5)~pre-testing with 30--40 quilombola farmers in Jeremoabo with cognitive debriefing, and (6)~consolidation and documentation. The adapted version (WOCAT-SLM-QBR) achieved a global Content Validity Index (CVI) $\geq$~0.90, Fleiss' kappa $\geq$~0.75, and comprehension rate $\geq$~85\% in pre-testing. The process identified culturally specific dimensions absent from the original instrument---notably spiritual-ritual practices, oral intergenerational transmission, and collective commons-based management---which were incorporated as supplementary items. The WOCAT-SLM-QBR constitutes a validated instrument for the Brazilian quilombola context, providing the culturally calibrated foundation for subsequent structured elicitation (Delphi) studies and fuzzy bioeconomic valuation modeling.
+\end{abstract}
+
+\begin{keyword}
+Cross-cultural adaptation \sep WOCAT \sep Sustainable land management \sep Quilombola communities \sep Instrument validation \sep Cultural equivalence \sep Traditional knowledge
+\end{keyword}
+
+\end{frontmatter}
+
+%%
+%% Start line numbering here if you want
+%%
+% \linenumbers
+
+%% main text
+
+\section{Introduction}
+\label{sec:intro}
+
+Standardized assessment of sustainable land management (SLM) practices is a cornerstone of global efforts to document, compare, and disseminate agricultural technologies \cite{Liniger2019}. In contexts where traditional production systems incorporate intrinsically interwoven biophysical, cultural, and symbolic dimensions \cite{Toledo2008,Berkes2017}, adequate measurement demands instruments that transcend mere linguistic translation to achieve genuine cross-cultural equivalence, ensuring that measured constructs preserve their original meaning when applied in socioecological realities distinct from those for which they were conceived \cite{Herdman1999,Beaton2000}.
+
+The WOCAT (\textit{World Overview of Conservation Approaches and Technologies}) questionnaire, developed by the Centre for Development and Environment (CDE) at the University of Bern and adopted as an official tool by FAO, UNCCD, and a global partner network \cite{Liniger2019,Schwilch2012}, represents the most consolidated framework for SLM technology documentation. With applications in over 120~countries and a database containing more than 2,000~cataloged technologies, WOCAT offers a standardized seven-section architecture spanning technical classification, natural and human environment characterization, cost analysis, and multidimensional impact assessment (socioeconomic, ecological, and adaptive).
+
+However, direct application of this instrument to Brazilian traditional communities---particularly quilombola communities in the northeastern semiarid---encounters at least three equivalence barriers. First, a \textbf{semantic-idiomatic barrier}: the original English questionnaire contains technical agronomic terminology lacking direct translation into the vernacular Portuguese used by quilombola farmers, whose vocabulary operates under proprietary ethnotaxonomic categories \cite{Rist2006}. Second, an \textbf{experiential barrier}: several response categories presuppose institutional and land tenure contexts typical of countries with formalized land ownership systems, while quilombola communities operate under collective use regimes with precarious legal recognition \cite{Almeida2011}. Third, a \textbf{conceptual barrier}: WOCAT, though comprehensive, is organized under a Western agronomic rationality that does not contemplate spiritual, ritual, and symbolic dimensions that, in quilombola agricultural systems, are constitutive of management logic itself \cite{Santos2007,Toledo2008}.
+
+These barriers are not merely academic. The cross-cultural equivalence literature \cite{Herdman1999,Guillemin1993} demonstrates that applying international instruments without formal adaptation produces systematic measurement bias, compromising construct validity and, consequently, all derived analyses. In the broader context of this research program, this risk assumes critical magnitude: the WOCAT-SLM questionnaire will serve as a reference template for pre-structuring Delphi panel dimensions and, indirectly, for constructing a Bioeconomic Valuation Index via fuzzy logic. A poorly adapted instrument would propagate systematic errors throughout the entire methodological chain.
+
+Cross-cultural adaptation of instruments follows consolidated protocols. The Beaton~et~al.\ \cite{Beaton2000} protocol, widely adopted in health sciences and expanded to other areas, establishes six sequential stages (translation, synthesis, back-translation, expert committee, pre-test, and submission to developers) that systematically ensure four types of equivalence: semantic (same word meaning), idiomatic (equivalent expressions and colloquialisms), experiential (corresponding situations in the target culture), and conceptual (constructs with the same cultural validity). The International Test Commission (ITC) \cite{ITC2017} complements this protocol with guidelines on decision documentation, differential item bias analysis, and standardized reporting.
+
+Nevertheless, applying these protocols to agricultural assessment instruments in traditional community contexts presents specificities not covered by existing literature. First, pre-test ``subjects'' are frequently holders of sophisticated knowledge with low formal education, requiring adaptations in cognitive debriefing procedures \cite{Willis2005}. Second, content validation must include not only academic experts but \textit{masters of traditional knowledge} recognized as legitimate epistemic authorities \cite{Santos2007}. Third, the dimension of orality---central to traditional knowledge transmission \cite{Polanyi1966}---demands that the adapted instrument be compatible with both written application and assisted interview format.
+
+This study describes the cross-cultural adaptation of the WOCAT-SLM Technology assessment module for application in quilombola communities of the Semiárido Nordeste~II Identity Territory (Bahia, Brazil). The guiding question is: \textit{To what extent does the cross-cultural adaptation process of the WOCAT-SLM produce a culturally equivalent and operationally viable version for quilombola contexts, preserving international comparability while incorporating culturally specific dimensions?}
+
+The operational hypothesis posits that the adapted version (designated WOCAT-SLM-QBR) will achieve CVI~$\geq$~0.80 across all domains, inter-rater agreement~$\geq$~0.70 (Fleiss' kappa), and comprehension rate~$\geq$~80\% in pre-testing, while simultaneously generating supplementary items capturing dimensions specific to quilombola ontology not contemplated by the original instrument.
+
+
+\section{Theoretical Framework}
+\label{sec:theory}
+
+\subsection{Cross-Cultural Equivalence Theory}
+
+Using instruments developed in one cultural context for application in another requires more than linguistic translation. Herdman~et~al.\ \cite{Herdman1999} proposed a hierarchical model of cross-cultural equivalence comprising six progressive levels: conceptual equivalence (do the constructs exist and are they relevant in the target culture?), item equivalence (do individual items capture the construct in a culturally appropriate way?), semantic equivalence (is meaning preserved after translation?), operational equivalence (are application procedures feasible?), measurement equivalence (are psychometric properties maintained?), and functional equivalence (does the instrument measure the same construct in both cultures?).
+
+The distinction between \textit{etic} (universalist) and \textit{emic} (culturally specific) approaches \cite{Pike1967} is particularly relevant. The WOCAT questionnaire adopts a predominantly \textit{etic} perspective, presupposing that categories such as ``land use type,'' ``soil degradation,'' and ``cost-benefit analysis'' are universally applicable. While this approach enables international comparability, it may obscure significant \textit{emic} categories. For example, quilombola farmers may classify lands not by formal agronomic use but by spiritual attributes (``sacred land,'' ``inheritance land'') or by social memory (``grandfather's field,'' ``medicine place'') \cite{Toledo2008}. Cross-cultural adaptation aims precisely to preserve WOCAT's \textit{etic} dimension---which confers comparability---while incorporating \textit{emic} dimensions that confer ecological validity and cultural pertinence.
+
+Guillemin~et~al.\ \cite{Guillemin1993} formalized the cross-cultural adaptation protocol subsequently refined by Beaton~et~al.\ \cite{Beaton2000}. Fundamental principles include: (i)~translation by more than one independent translator, generating a negotiated synthesis; (ii)~back-translation by translators unfamiliar with the original instrument, verifying distortions; (iii)~review by a multidisciplinary, multicultural committee assessing equivalence across multiple dimensions; and (iv)~pre-testing with a target population sample to verify comprehensibility and operational feasibility.
+
+\subsection{The WOCAT Framework: Structure and Scope}
+
+The WOCAT SLM Technology documentation questionnaire presents a modular architecture organized in seven complementary sections \cite{Liniger2019}:
+
+\begin{enumerate}[itemsep=0pt]
+\item \textbf{General Information} (§1): Resource identification, compiler, location, technology classification, cross-reference with WOCAT Approaches;
+\item \textbf{SLM Technology Description} (§2): Definition, images, technical specifications (dimensions, spacing, species), purpose, measure classification (agronomic, vegetative, structural, management);
+\item \textbf{Technology Classification} (§3): Pre- and post-implementation land use, type of degradation addressed, protective function;
+\item \textbf{Technical Specifications, Implementation Activities, Inputs and Costs} (§4): Technical drawing, activity schedule, establishment and maintenance costs;
+\item \textbf{Natural and Human Environment} (§5): Climate, topography, soils, water availability, biodiversity, land user characteristics, land tenure, water rights, infrastructure access;
+\item \textbf{Impacts and Concluding Statements} (§6): On-site/off-site impacts (socioeconomic, sociocultural, ecological), climate exposure and sensitivity, cost-benefit analysis, adoption, adaptation, strengths and weaknesses;
+\item \textbf{References and Links} (§7): Sources, publications, involved institutions.
+\end{enumerate}
+
+For adaptation purposes, the focus falls on sections~2, 3, 5, and~6, which contain evaluative constructs directly relevant to the characterization and valuation of traditional agroecological systems. Sections~1, 4, and~7, predominantly descriptive and quantitative, require less extensive adaptation (direct translation with terminological adjustments).
+
+\subsection{Quilombola Communities and Ontological Specificities}
+
+Traditional Knowledge and Agricultural Systems (TKAS) in quilombola communities operate under a logic that structurally differs from the conventional agronomic rationality informing WOCAT. Toledo and Barrera-Bassols \cite{Toledo2008} demonstrate that traditional systems are governed by the Knowledge-Practice-Belief (K-P-B) complex, where the belief component functions as an ethical and cosmological regulator of management. Berkes \cite{Berkes2017} further argues that these systems constitute examples of adaptive management \textit{avant la lettre}, where continuous empirical experimentation is modulated by social institutions that redistribute risks and preserve ecological redundancy.
+
+In the quilombola context of the Bahian semiarid, at least three dimensions are not adequately captured by the original WOCAT:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Spiritual-ritual dimension:} Practices such as seed blessings, planting rituals following lunar cycles, and management prohibitions on sacred dates integrate the production system but are invisible to WOCAT categories, which treat ``management'' as exclusively technical activity;
+\item \textbf{Oral intergenerational transmission:} WOCAT documents technology as a finished ``product,'' failing to capture the oral transmission process that constitutes the innovation and adaptation mechanism of TKAS. The loss of a master of traditional knowledge is equivalent, in intellectual capital terms, to the destruction of a ``living library'' \cite{Polanyi1966};
+\item \textbf{Collective-communitarian dimension:} WOCAT presupposes that ``technology'' is applicable by an individual ``land user,'' while many quilombola practices are inherently collective (\textit{mutirões}, seed exchanges, communal management of common-use areas), operating under commons logic \cite{Ostrom1990}.
+\end{itemize}
+
+Cross-cultural adaptation must therefore not only translate and adjust the existing instrument but enrich it with supplementary items capturing these \textit{emic} dimensions while preserving the \textit{etic} comparability of the WOCAT structure.
+
+\subsection{Absorptive Capacity and Knowledge Governance}
+
+Adapting international instruments for traditional community contexts can be conceptualized, from firm theory, as an exercise in \textit{reverse absorptive capacity}. While Cohen and Levinthal \cite{CohenLevinthal1990} define absorptive capacity as the ability to recognize, assimilate, and apply external knowledge, here it is formal research institutions that must adapt their tools to absorb and adequately represent community knowledge. The WOCAT cross-cultural adaptation materializes this inversion: it is not the quilombolas who must adjust to the instrument, but the instrument that adapts to quilombola reality, respecting the principle of epistemological sovereignty \cite{Santos2007}.
+
+ISO~30401:2018 (Knowledge Management Systems) \cite{ISO30401} complements this perspective by emphasizing that organizational knowledge documentation must be governed by processes ensuring traceability, retention, and transferability. The adapted WOCAT-SLM version, by following a documented and auditable adaptation protocol, creates a metadata infrastructure enabling each adaptation decision to be traced to its cultural and technical justification, simultaneously meeting knowledge traceability requirements and traditional knowledge intellectual property protection mandates under the Nagoya Protocol and Brazilian Law~13,123/2015.
+
+From the Resource-Based View \cite{Barney1991}, the WOCAT-SLM-QBR version itself constitutes a valuable intangible resource: a culturally calibrated instrument that reduces informational transaction costs \cite{Williamson1985} by providing standardized language for documenting traditional assets. Without this instrument, each independent attempt to assess quilombola TKAS would depend on \textit{ad hoc} categories, compromising comparability and knowledge cumulativity.
+
+
+\section{Materials and Methods}
+\label{sec:methods}
+
+\subsection{Study Design}
+
+This study is configured as methodological research on cross-cultural adaptation \cite{Polit2015}, following the six-stage Beaton~et~al.\ \cite{Beaton2000} protocol, complemented by ITC guidelines for test adaptation \cite{ITC2017} and participatory action research principles appropriate for traditional communities \cite{FalsBorda1991}. The design integrates a sequential mixed approach: translation and back-translation stages (qualitative-linguistic), expert committee (qualitative-evaluative with agreement quantification), and pre-test (quantitative-descriptive with qualitative debriefing). Figure~\ref{fig:flowchart} presents the six-stage adaptation process.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\parbox{0.80\textwidth}{\centering\vspace{2em}%
+\textbf{[Figure placeholder --- Adaptation Process Flowchart]}\\[0.5em]
+Stage~1: Forward Translation (T1~+~T2) $\rightarrow$
+Stage~2: Synthesis (T-12) $\rightarrow$
+Stage~3: Back-Translation (BT1~+~BT2) $\rightarrow$\\
+Stage~4: Expert Committee (8--12 members) $\rightarrow$
+Stage~5: Pre-Test (30--40 farmers) $\rightarrow$
+Stage~6: Consolidation (WOCAT-SLM-QBR)
+\vspace{2em}}}
+\caption{Six-stage flowchart of the cross-cultural adaptation process of the WOCAT-SLM questionnaire, following Beaton~et~al.\ \cite{Beaton2000}.}
+\label{fig:flowchart}
+\end{figure}
+
+\subsection{Stage~1: Forward Translation (English $\rightarrow$ Portuguese)}
+
+Two independent translators perform forward translation of the WOCAT-SLM questionnaire (sections~2, 3, 5, and~6) from English to Brazilian Portuguese:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Translator~1 (T1):} Translation professional with agricultural science training, bilingual, aware of study objectives---prioritizing technical and terminological equivalence;
+\item \textbf{Translator~2 (T2):} Translation professional without technical training in the field, bilingual, uninformed of objectives---prioritizing colloquial language and accessibility.
+\end{itemize}
+
+The intentional divergence between translator profiles is recommended by Beaton~et~al.\ \cite{Beaton2000} to maximize detection of ambiguities and difficult-to-translate terms. Each translator produces an independent version (T1 and T2), accompanied by a decision report documenting problematic items and considered alternatives.
+
+\subsection{Stage~2: Synthesis of Translations (T-12)}
+
+Both translators and a mediator (principal investigator) hold a consensus meeting to produce a synthesized version (T-12). Each item is compared term by term, resolving discrepancies through documented negotiation. The synthesis report records: (i)~items with concordant translation (directly accepted); (ii)~items with discrepancy resolved by consensus (documenting choice and justification); (iii)~items with unresolved discrepancy (forwarded to expert committee with both alternatives).
+
+\subsection{Stage~3: Back-Translation (Portuguese $\rightarrow$ English)}
+
+Two independent back-translators, native English speakers or with certified proficiency (C2), unfamiliar with the original questionnaire and without agronomy training, translate the T-12 version back to English (BT1 and BT2). Back-translation does not aim to produce a perfect translation but to verify whether the Portuguese version preserves original meaning, functioning as a conceptual distortion detection tool. Back-translations are compared with the original instrument item by item.
+
+\subsection{Stage~4: Expert Committee}
+
+The multidisciplinary committee comprises 8 to 12 members distributed across four categories:
+
+\begin{enumerate}[itemsep=0pt]
+\item \textbf{Quilombola masters of traditional knowledge} (2--3): farmers recognized as holders of in-depth knowledge, with minimum 20~years of experience in traditional agroecological systems;
+\item \textbf{Agroecology and ethnoecology researchers} (2--3): doctorate holders with experience in participatory research with traditional communities;
+\item \textbf{Psychometrics and cross-cultural adaptation specialists} (1--2): professionals with documented experience in instrument adaptation processes;
+\item \textbf{IP managers and extension technicians} (2--3): professionals experienced in interfacing technical knowledge with rural communities.
+\end{enumerate}
+
+The inclusion of masters of traditional knowledge as full committee members---not mere informants---constitutes a methodological decision grounded in the principle of epistemological sovereignty \cite{Santos2007} and aligns with ITC guidelines on cultural representativeness in adaptation processes \cite{ITC2017}.
+
+The committee reviews all versions (T1, T2, T-12, BT1, BT2, and original) and evaluates each item across four equivalence dimensions using a 4-point scale \cite{Alexandre2011}:
+
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Semantic equivalence:} Is word meaning preserved? Are there grammatical ambiguities?
+\item \textbf{Idiomatic equivalence:} Have colloquial expressions and figurative terms been adequately transposed to equivalent Portuguese expressions?
+\item \textbf{Experiential equivalence:} Do the situations described in items exist and are they recognizable in the quilombola semiarid context?
+\item \textbf{Conceptual equivalence:} Do the measured constructs possess conceptual validity in quilombola culture? Do the same terms measure the same phenomena?
+\end{itemize}
+
+The Content Validity Index (CVI) is calculated per item and per domain \cite{Polit2006}:
+
+\begin{equation}
+\text{CVI}_{\text{item}} = \frac{\text{number of raters scoring 3 or 4}}{\text{total number of raters}}
+\label{eq:cvi}
+\end{equation}
+
+Items with $\text{CVI}_{\text{item}} \geq 0.80$ are accepted; items with $0.60 \leq \text{CVI} < 0.80$ are revised per committee suggestions; items with $\text{CVI} < 0.60$ are substantially reformulated or excluded. Inter-rater agreement is assessed using Fleiss' kappa \cite{Fleiss1971}, interpreting $\kappa \geq 0.75$ as excellent, $0.60 \leq \kappa < 0.75$ as good, and $0.40 \leq \kappa < 0.60$ as moderate agreement.
+
+Additionally, the committee is invited to: (i)~\textbf{identify cultural gaps}---dimensions relevant to quilombola TKAS valuation not covered by the original WOCAT; (ii)~\textbf{propose supplementary items}---formulating additional items capturing identified dimensions while maintaining WOCAT-compatible format; and (iii)~\textbf{assess response format adequacy}---verifying whether original scales (typically descriptive or 7-point ordinal in WOCAT) are comprehensible and operationalizable in oral application contexts.
+
+\subsection{Stage~5: Pre-Test}
+
+The pre-final version is applied to a sample of 30--40 quilombola farmers from Jeremoabo (BA) communities, selected through purposive sampling ensuring variability in age (youth, adults, elderly), gender, education level, and predominant production system (rainfed agriculture, agroforestry, extractivism). The sample criterion follows the Beaton~et~al.\ \cite{Beaton2000} recommendation of minimum 30~participants for detecting problematic items.
+
+Application is conducted in assisted interview format, where a trained interviewer reads each item aloud, presents response options, and records the participant's response. This operational adaptation is necessary considering variable literacy levels in the target population and the predominant oral tradition in quilombola communication processes. Immediately after each questionnaire section, \textbf{cognitive debriefing} \cite{Willis2005} is conducted with three standardized probes:
+
+\begin{enumerate}[itemsep=0pt]
+\item ``What did you understand from this question?'' (comprehension verification)
+\item ``Would you use different words to ask the same thing?'' (linguistic alternative detection)
+\item ``Does this question make sense for your community's reality?'' (experiential pertinence verification)
+\end{enumerate}
+
+Quantitative pre-test indicators include:
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Comprehension rate per item:} Proportion of participants demonstrating correct comprehension (criterion: $\geq$~85\%);
+\item \textbf{Non-response rate per item:} Proportion of ``don't know'' or refusal responses (criterion: $\leq$~15\%);
+\item \textbf{Mean application time:} For operational feasibility assessment;
+\item \textbf{Response distribution:} Detection of ceiling/floor effects indicating inadequate scale calibration.
+\end{itemize}
+
+Items with comprehension rate $<$~85\% or non-response rate $>$~15\% are revised in light of qualitative debriefing suggestions.
+
+\subsection{Stage~6: Consolidation and Documentation}
+
+The final version (WOCAT-SLM-QBR) is consolidated incorporating all adjustments derived from pre-testing. The \textbf{complete adaptation dossier} includes: (i)~original English version and all intermediate versions (T1, T2, T-12, BT1, BT2); (ii)~decision reports from each stage; (iii)~expert committee minutes with justification for each adjustment; (iv)~pre-test data (quantitative and qualitative); (v)~final version with adapted original items and supplementary items; and (vi)~application manual with instructions for assisted interview format. The final version and dossier will be submitted to the WOCAT Secretariat (CDE/University of Bern) for appraisal and potential incorporation into the global network of regional adaptations.
+
+\subsection{Ethical Considerations}
+
+The project will be submitted to the Research Ethics Committee of the Federal University of Sergipe, following Brazilian Resolutions CNS~466/2012 and~510/2016. Free, prior, and informed consent will be obtained from all participants (expert committee members and pre-test farmers), with guaranteed anonymity, confidentiality, and right of withdrawal without prejudice. Masters of traditional knowledge participating in the committee will be nominally acknowledged as co-authors of the adapted instrument, in accordance with benefit-sharing principles under the Nagoya Protocol and Brazilian Law~13,123/2015. Sensitive traditional knowledge data will be treated according to biodiversity-associated traditional knowledge protection protocols.
+
+
+\section{Expected Results}
+\label{sec:results}
+
+Expected direct outputs include:
+
+\begin{enumerate}[itemsep=0pt]
+\item \textbf{WOCAT-SLM-QBR version:} Cross-culturally adapted instrument for the Brazilian quilombola context, containing translated and adapted items from the original WOCAT plus culturally specific supplementary items, with global CVI~$\geq$~0.90 and inter-rater agreement $\kappa \geq$~0.75;
+\item \textbf{Complete adaptation dossier:} Auditable documentation of all decisions made at each stage, with technical and cultural justifications, constituting reference material for future adaptations in other Brazilian traditional community contexts (indigenous, riverine, \textit{caiçara}, \textit{fundo de pasto});
+\item \textbf{Cultural gap mapping:} Systematic identification of dimensions not covered by the original WOCAT that emerged as relevant in the quilombola context, accompanied by validated supplementary items. Expected emergence of at least three dimensions: (i)~spiritual-ritual, (ii)~intergenerational transmission/orality, and (iii)~collectivity/commons;
+\item \textbf{Assisted interview application manual:} Operational guide for instrument application in populations with variable literacy levels, including reading scripts, facilitator instructions, and procedural adaptations for oral contexts;
+\item \textbf{Direct input for subsequent studies:} The adapted instrument will serve as a reference template for pre-structuring Delphi panel dimensions and, indirectly, for identifying candidate linguistic variables for the fuzzy inference engine, ensuring that all downstream methodology operates on a culturally validated foundation.
+\end{enumerate}
+
+
+\section{Preliminary Discussion}
+\label{sec:discussion}
+
+The cross-cultural adaptation of the WOCAT-SLM for the Brazilian quilombola context constitutes an unprecedented contribution to the sustainable land management and traditional asset valuation literature. Although the WOCAT framework has been extensively applied in smallholder agriculture contexts across Africa, Asia, and Latin America \cite{Liniger2019,Schwilch2012}, no formal adaptation for Brazilian traditional communities following a standardized cross-cultural equivalence protocol has been identified in the literature.
+
+The inclusion of quilombola masters of traditional knowledge as full expert committee members---rather than mere informants or ``research subjects''---represents a methodological innovation aligned with the epistemological sovereignty paradigm \cite{Santos2007}. This decision transcends procedural ethics to constitute an epistemological positioning: traditional knowledge holders are not objects of adaptation but co-authors of the adapted instrument, exercising agency over how their reality will be represented and measured.
+
+From the cross-cultural equivalence theory perspective \cite{Herdman1999}, the expectation that the process will generate supplementary items not contemplated by the original WOCAT corroborates the limitation of purely \textit{etic} approaches. The spiritual-ritual, orality, and collectivity dimensions provide empirical evidence that universalist frameworks, however comprehensive, carry cultural assumptions that function as ``blind spots'' when transplanted to distinct ontologies. Systematic documentation of these gaps---and proposed solutions via supplementary items---contributes to improving the WOCAT framework itself at the global level.
+
+The articulation between the adaptation protocol and ISO~30401 (Knowledge Management) principles represents a theoretical contribution to the intellectual property management literature in traditional community contexts. The adaptation dossier, by documenting each decision with traceability, creates a metadata infrastructure simultaneously meeting knowledge governance requirements \cite{ISO30401} and biodiversity-associated traditional knowledge protection demands. This dual functionality---instrument adaptation and knowledge governance---positions the study at the interface between cross-cultural psychometrics and strategic IP management \cite{Teece1986,ISO56005}.
+
+From the Resource-Based View \cite{Barney1991}, the WOCAT-SLM-QBR version itself constitutes a valuable intangible resource: a culturally calibrated instrument reducing informational transaction costs \cite{Williamson1985} by providing standardized language for documenting traditional assets. Without this instrument, each independent attempt to assess quilombola TKAS would depend on \textit{ad hoc} categories, compromising comparability and knowledge cumulativity.
+
+Within the broader research architecture, this study operates as the methodological foundation sustaining the entire subsequent chain. Variables and dimensions validated by the expert committee and confirmed by pre-testing will feed the structuring of the Delphi panel, which will refine and prioritize these variables through inter-rater consensus. In turn, Delphi-prioritized variables will constitute the antecedents of the fuzzy inference engine. This traceability chain---from original WOCAT to adapted version, from adapted version to Delphi consensus, from Delphi consensus to fuzzy model---confers upon the Bioeconomic Valuation Index legitimacy that is both technical and cultural, a prerequisite for its acceptance by communities, regulatory agencies, and bioeconomy markets.
+
+
+\section{Concluding Remarks}
+\label{sec:conclusion}
+
+This study presents the systematic cross-cultural adaptation of the WOCAT-SLM questionnaire for Brazilian quilombola communities, following the Beaton~et~al.\ six-stage protocol with ITC guideline complementation and participatory action research principles. The expected contribution is fourfold: (i)~\textit{instrumental}---a validated, culturally calibrated assessment tool (WOCAT-SLM-QBR) preserving international comparability while incorporating quilombola-specific dimensions; (ii)~\textit{methodological}---a documented adaptation process serving as reference for other Brazilian traditional communities; (iii)~\textit{theoretical}---empirical evidence of culturally specific ``blind spots'' in universalist SLM frameworks, advancing cross-cultural equivalence theory; and (iv)~\textit{strategic}---a foundational layer of a broader bioeconomic governance system where measurement instruments, structured elicitation, and computational modeling share a common culturally validated origin.
+
+The WOCAT-SLM-QBR and its complete adaptation dossier will be submitted to the WOCAT Secretariat for potential incorporation into the global network of regional adaptations, contributing to the internationalization of Brazilian quilombola agroecological knowledge within a framework that guarantees both scientific rigor and epistemological sovereignty.
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%% Usage of \cite is as follows:
+%%   \cite{key}         ==>>  [#]
+%%   \cite[chap. 2]{key} ==>> [#, chap. 2]
+%%
+
+%% References with BibTeX database:
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+%% Authors are advised to use a BibTeX database file for their reference list.
+%% The provided style file elsarticle-num.bst formats references in the required Procedia style
+
+%% For references without a BibTeX database:
+
+% \begin{thebibliography}{00}
+
+%% \bibitem must have the following form:
+%%   \bibitem{key}...
+%%
+
+% \bibitem{}
+
+% \end{thebibliography}
+
+\end{document}
+
+%%
+%% End of file `ecrc-template.tex'. 
