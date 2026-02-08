@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ecrc-template"] 1770568397.28422 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770568411.62232 0
-  "./elsarticle-num.bst" 1770548009 29353 cbd593ca59c003368735a9d8dbd22298 ""
-  "./references.bib" 1770568388 17892 039fa00fb5972926bab6f421aeb57047 ""
-  "ecrc-template.aux" 1770568410 9884 2533b8344319662d574b5d05bcdb6de5 "pdflatex"
+["bibtex ecrc-template"] 1770570266.79084 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770570275.34113 0
+  "./references.bib" 1770570262 22120 bab2528dadc1abcdb2a5657d74d12021 ""
+  "C:/Users/vidal/AppData/Roaming/MiKTeX/bibtex/bst/elsarticle/elsarticle-harv.bst" 1768130249 30002 8c3d766e7980d576fdc8329774bbf7b2 ""
+  "ecrc-template.aux" 1770570274 10601 a731add93252a788084dbabf47e50bb7 "pdflatex"
   (generated)
   "ecrc-template.bbl"
   "ecrc-template.blg"
   (rewritten before read)
-["pdflatex"] 1770568398.47957 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770568411.6235 0
+["pdflatex"] 1770570267.20512 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770570275.3419 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -133,7 +133,7 @@
   "C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1756451144 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Program Files/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770549707 86709 ef5751f429ee5fb2e69c767a98e4de75 ""
+  "C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770569478 86709 ef5751f429ee5fb2e69c767a98e4de75 ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0800.pk" 1770554328 15192 58707e8d08129967f7461c0310000c7b ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1770566745 20028 42b336df9077f9c341b2fe3e00f72225 ""
   "C:/Users/vidal/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761599437 13311556 fb8160f0c5c7e1f0db4a45838840b6d8 ""
@@ -209,12 +209,12 @@
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxmia.fd" 977342760 334 87436a82076ca2e35cd305f852507afc ""
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "SDlogo-3p.pdf" 1770548009 32832 4c44d6c52fa62ecd42842252126ea898 ""
-  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770568397 51963 e82a02792e79f9e54c176b6c38f0b1b4 ""
-  "ecrc-template.aux" 1770568410 9884 2533b8344319662d574b5d05bcdb6de5 "pdflatex"
-  "ecrc-template.bbl" 1770568407 10196 27061e45841e50dbf027436105e5d627 "bibtex ecrc-template"
-  "ecrc-template.out" 1770568410 8061 dfa0f92dd5f46509dabeac20cc2a88e1 "pdflatex"
-  "ecrc-template.spl" 1770568408 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ecrc-template.tex" 1770568397 51963 e82a02792e79f9e54c176b6c38f0b1b4 ""
+  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770569833 52865 7842cf517fe44f13ef1cd610c734bd1c ""
+  "ecrc-template.aux" 1770570274 10601 a731add93252a788084dbabf47e50bb7 "pdflatex"
+  "ecrc-template.bbl" 1770570267 16633 43effeb345ee44e6fc0541a315c4ea8f "bibtex ecrc-template"
+  "ecrc-template.out" 1770570274 7841 ea841e24851ab58c2137ac97c37a2140 "pdflatex"
+  "ecrc-template.spl" 1770570267 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ecrc-template.tex" 1770569833 52865 7842cf517fe44f13ef1cd610c734bd1c ""
   "ecrc.sty" 1770548009 9851 bd6cc48423129411a0ccc52c8fda0e99 ""
   "elsarticle.cls" 1770548009 26250 93bcb641d1d601908e89f8b8c60ceeeb ""
   "elsevier-logo-3p.pdf" 1770548009 1496269 6d2701b6d282a90964ce5f7ec8b6bdcf ""

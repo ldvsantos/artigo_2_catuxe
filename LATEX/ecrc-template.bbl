@@ -1,242 +1,453 @@
-\begin{thebibliography}{10}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\expandafter\ifx\csname href\endcsname\relax
-  \def\href#1#2{#2} \def\path#1{#1}\fi
-
-\bibitem{Costanza1997}
-R.~Costanza, R.~d'Arge, R.~de~Groot, S.~Farber, M.~Grasso, B.~Hannon,
-  K.~Limburg, S.~Naeem, R.~V. O'Neill, J.~Paruelo, R.~G. Raskin, P.~Sutton,
-  M.~van~den Belt, The value of the world's ecosystem services and natural
-  capital, Nature 387 (1997) 253--260.
-\newblock \href {http://dx.doi.org/10.1038/387253a0}
-  {\path{doi:10.1038/387253a0}}.
-
-\bibitem{Dale2001}
-V.~H. Dale, S.~C. Beyeler, Challenges in the development and use of ecological
-  indicators, Ecological Indicators 1~(1) (2001) 3--10.
-
-\bibitem{Berkes2017}
-F.~Berkes, Sacred Ecology, 4th Edition, Routledge, New York, 2017.
-
-\bibitem{Toledo2008}
-V.~M. Toledo, N.~Barrera-Bassols, La Memoria Biocultural: La Importancia
-  Ecológica de las Sabidurías Tradicionales, Icaria, Barcelona, 2008.
-
-\bibitem{Niemeijer2008}
-D.~Niemeijer, R.~S. de~Groot, A conceptual framework for selecting
-  environmental indicator sets, Ecological Indicators 8~(1) (2008) 14--25.
-
-\bibitem{Liniger2019}
-H.~Liniger, G.~Schwilch, M.~Gurtner, R.~Mekdaschi~Studer, C.~Hauert, G.~van
-  Lynden, W.~Critchley, {WOCAT}: Questionnaire on sustainable land management
-  ({SLM}) technologies, in: WOCAT Global SLM Database, CDE, University of Bern,
-  Bern, Switzerland, 2019, version 2019. Available at:
-  \url{https://www.wocat.net}.
-
-\bibitem{Schwilch2012}
-G.~Schwilch, F.~Bachmann, H.~Liniger, Appraising and selecting conservation
-  measures to mitigate desertification and land degradation based on
-  stakeholder participation and global best practices, Land Degradation \&
-  Development 23~(2) (2012) 160--174.
-\newblock \href {http://dx.doi.org/10.1002/ldr.1069}
-  {\path{doi:10.1002/ldr.1069}}.
-
-\bibitem{Herdman1999}
-M.~Herdman, J.~Fox-Rushby, X.~Badia, A model of equivalence in the cultural
-  adaptation of {HRQoL} instruments: the universalist approach, Quality of Life
-  Research 8~(4) (1999) 323--335.
-\newblock \href {http://dx.doi.org/10.1023/A:1008866418851}
-  {\path{doi:10.1023/A:1008866418851}}.
-
-\bibitem{Rist2006}
-S.~Rist, F.~Dahdouh-Guebas, Ethnosciences -- a step towards the integration of
+\begin{thebibliography}{55}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Almeida(2011)}]{Almeida2011}
+\bibinfo{author}{Almeida, A.W.B.d.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Quilombolas e novas etnias}.
+\newblock \bibinfo{publisher}{Editora da Universidade Estadual do Amazonas},
+  \bibinfo{address}{Manaus}.
+%Type = Article
+\bibitem[{Barney(1991)}]{Barney1991}
+\bibinfo{author}{Barney, J.}, \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{Firm resources and sustained competitive advantage}.
+\newblock \bibinfo{journal}{Journal of Management} \bibinfo{volume}{17},
+  \bibinfo{pages}{99--120}.
+\newblock \DOIprefix\doi{10.1177/014920639101700108}.
+%Type = Article
+\bibitem[{Beaton et~al.(2000)Beaton, Bombardier, Guillemin and
+  Ferraz}]{Beaton2000}
+\bibinfo{author}{Beaton, D.E.}, \bibinfo{author}{Bombardier, C.},
+  \bibinfo{author}{Guillemin, F.}, \bibinfo{author}{Ferraz, M.B.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Guidelines for the process of cross-cultural
+  adaptation of self-report measures}.
+\newblock \bibinfo{journal}{Spine} \bibinfo{volume}{25},
+  \bibinfo{pages}{3186--3191}.
+%Type = Article
+\bibitem[{Belletti et~al.(2017)Belletti, Marescotti and Touzard}]{Belletti2015}
+\bibinfo{author}{Belletti, G.}, \bibinfo{author}{Marescotti, A.},
+  \bibinfo{author}{Touzard, J.M.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Geographical indications, public goods, and
+  sustainable development: The roles of actors' strategies and public
+  policies}.
+\newblock \bibinfo{journal}{World Development} \bibinfo{volume}{98},
+  \bibinfo{pages}{45--57}.
+\newblock \DOIprefix\doi{10.1016/j.worlddev.2015.05.004}.
+%Type = Book
+\bibitem[{Berkes(2017)}]{Berkes2017}
+\bibinfo{author}{Berkes, F.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Sacred Ecology}.
+\newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{Routledge},
+  \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Braun and Clarke(2006)}]{Braun2006}
+\bibinfo{author}{Braun, V.}, \bibinfo{author}{Clarke, V.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Using thematic analysis in psychology}.
+\newblock \bibinfo{journal}{Qualitative Research in Psychology}
+  \bibinfo{volume}{3}, \bibinfo{pages}{77--101}.
+\newblock \DOIprefix\doi{10.1191/1478088706qp063oa}.
+%Type = Article
+\bibitem[{Campolongo et~al.(2007)Campolongo, Cariboni and
+  Saltelli}]{Campolongo2007}
+\bibinfo{author}{Campolongo, F.}, \bibinfo{author}{Cariboni, J.},
+  \bibinfo{author}{Saltelli, A.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{An effective screening design for sensitivity
+  analysis of large models}.
+\newblock \bibinfo{journal}{Environmental Modelling \& Software}
+  \bibinfo{volume}{22}, \bibinfo{pages}{1509--1518}.
+%Type = Article
+\bibitem[{Cohen and Levinthal(1990)}]{CohenLevinthal1990}
+\bibinfo{author}{Cohen, W.M.}, \bibinfo{author}{Levinthal, D.A.},
+  \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Absorptive capacity: A new perspective on learning
+  and innovation}.
+\newblock \bibinfo{journal}{Administrative Science Quarterly}
+  \bibinfo{volume}{35}, \bibinfo{pages}{128--152}.
+\newblock \DOIprefix\doi{10.2307/2393553}.
+%Type = Article
+\bibitem[{Costanza et~al.(1997)Costanza, d'Arge, de~Groot, Farber, Grasso,
+  Hannon, Limburg, Naeem, O'Neill, Paruelo, Raskin, Sutton and van~den
+  Belt}]{Costanza1997}
+\bibinfo{author}{Costanza, R.}, \bibinfo{author}{d'Arge, R.},
+  \bibinfo{author}{de~Groot, R.}, \bibinfo{author}{Farber, S.},
+  \bibinfo{author}{Grasso, M.}, \bibinfo{author}{Hannon, B.},
+  \bibinfo{author}{Limburg, K.}, \bibinfo{author}{Naeem, S.},
+  \bibinfo{author}{O'Neill, R.V.}, \bibinfo{author}{Paruelo, J.},
+  \bibinfo{author}{Raskin, R.G.}, \bibinfo{author}{Sutton, P.},
+  \bibinfo{author}{van~den Belt, M.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{The value of the world's ecosystem services and
+  natural capital}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{387},
+  \bibinfo{pages}{253--260}.
+\newblock \DOIprefix\doi{10.1038/387253a0}.
+%Type = Book
+\bibitem[{Creswell and Creswell(2018)}]{Creswell2018}
+\bibinfo{author}{Creswell, J.W.}, \bibinfo{author}{Creswell, J.D.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Research Design: Qualitative, Quantitative, and Mixed
+  Methods Approaches}.
+\newblock \bibinfo{edition}{5} ed., \bibinfo{publisher}{SAGE Publications},
+  \bibinfo{address}{Thousand Oaks, CA}.
+%Type = Article
+\bibitem[{Dale and Beyeler(2001)}]{Dale2001}
+\bibinfo{author}{Dale, V.H.}, \bibinfo{author}{Beyeler, S.C.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Challenges in the development and use of ecological
+  indicators}.
+\newblock \bibinfo{journal}{Ecological Indicators} \bibinfo{volume}{1},
+  \bibinfo{pages}{3--10}.
+%Type = Book
+\bibitem[{Davenport and Prusak(1998)}]{Davenport1998}
+\bibinfo{author}{Davenport, T.H.}, \bibinfo{author}{Prusak, L.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Working Knowledge: How Organizations Manage What They
+  Know}.
+\newblock \bibinfo{publisher}{Harvard Business School Press},
+  \bibinfo{address}{Boston}.
+%Type = Book
+\bibitem[{Edvinsson and Malone(1997)}]{Edvinsson1997}
+\bibinfo{author}{Edvinsson, L.}, \bibinfo{author}{Malone, M.S.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Intellectual Capital: Realizing Your Company's True
+  Value by Finding Its Hidden Brainpower}.
+\newblock \bibinfo{publisher}{HarperBusiness}, \bibinfo{address}{New York}.
+%Type = Book
+\bibitem[{Fals-Borda and Rahman(1991)}]{FalsBorda1991}
+\bibinfo{author}{Fals-Borda, O.}, \bibinfo{author}{Rahman, M.A.},
+  \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{Action and Knowledge: Breaking the Monopoly with
+  Participatory Action-Research}.
+\newblock \bibinfo{publisher}{Apex Press}, \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Fleiss(1971)}]{Fleiss1971}
+\bibinfo{author}{Fleiss, J.L.}, \bibinfo{year}{1971}.
+\newblock \bibinfo{title}{Measuring nominal scale agreement among many raters}.
+\newblock \bibinfo{journal}{Psychological Bulletin} \bibinfo{volume}{76},
+  \bibinfo{pages}{378--382}.
+\newblock \DOIprefix\doi{10.1037/h0031619}.
+%Type = Article
+\bibitem[{Folke et~al.(2010)Folke, Carpenter, Walker, Scheffer, Chapin and
+  Rockstr{\"o}m}]{Folke2010}
+\bibinfo{author}{Folke, C.}, \bibinfo{author}{Carpenter, S.R.},
+  \bibinfo{author}{Walker, B.}, \bibinfo{author}{Scheffer, M.},
+  \bibinfo{author}{Chapin, T.}, \bibinfo{author}{Rockstr{\"o}m, J.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Resilience thinking: Integrating resilience,
+  adaptability and transformability}.
+\newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{15},
+  \bibinfo{pages}{20}.
+%Type = Book
+\bibitem[{Glaser and Strauss(1967)}]{Glaser1967}
+\bibinfo{author}{Glaser, B.G.}, \bibinfo{author}{Strauss, A.L.},
+  \bibinfo{year}{1967}.
+\newblock \bibinfo{title}{The Discovery of Grounded Theory: Strategies for
+  Qualitative Research}.
+\newblock \bibinfo{publisher}{Aldine}, \bibinfo{address}{Chicago}.
+%Type = Article
+\bibitem[{Guillemin et~al.(1993)Guillemin, Bombardier and
+  Beaton}]{Guillemin1993}
+\bibinfo{author}{Guillemin, F.}, \bibinfo{author}{Bombardier, C.},
+  \bibinfo{author}{Beaton, D.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Cross-cultural adaptation of health-related quality
+  of life measures: literature review and proposed guidelines}.
+\newblock \bibinfo{journal}{Journal of Clinical Epidemiology}
+  \bibinfo{volume}{46}, \bibinfo{pages}{1417--1432}.
+\newblock \DOIprefix\doi{10.1016/0895-4356(93)90142-N}.
+%Type = Article
+\bibitem[{Herdman et~al.(1999)Herdman, Fox-Rushby and Badia}]{Herdman1999}
+\bibinfo{author}{Herdman, M.}, \bibinfo{author}{Fox-Rushby, J.},
+  \bibinfo{author}{Badia, X.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{A model of equivalence in the cultural adaptation of
+  {HRQoL} instruments: the universalist approach}.
+\newblock \bibinfo{journal}{Quality of Life Research} \bibinfo{volume}{8},
+  \bibinfo{pages}{323--335}.
+\newblock \DOIprefix\doi{10.1023/A:1008866418851}.
+%Type = Book
+\bibitem[{Hern{\'a}ndez-Nieto(2002)}]{Hernandez-Nieto2002}
+\bibinfo{author}{Hern{\'a}ndez-Nieto, R.A.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Contribuciones al an{\'a}lisis estad{\'i}stico}.
+\newblock \bibinfo{publisher}{Universidad de los Andes/IESINFO},
+  \bibinfo{address}{M{\'e}rida, Venezuela}.
+%Type = Article
+\bibitem[{Holling(1973)}]{Holling1973}
+\bibinfo{author}{Holling, C.S.}, \bibinfo{year}{1973}.
+\newblock \bibinfo{title}{Resilience and stability of ecological systems}.
+\newblock \bibinfo{journal}{Annual Review of Ecology and Systematics}
+  \bibinfo{volume}{4}, \bibinfo{pages}{1--23}.
+%Type = Misc
+\bibitem[{{International Organization for Standardization}(2018)}]{ISO30401}
+\bibinfo{author}{{International Organization for Standardization}},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{ISO} 30401:2018 -- knowledge management systems --
+  requirements}.
+\newblock \bibinfo{note}{Geneva: ISO}.
+%Type = Misc
+\bibitem[{{International Organization for Standardization}(2020)}]{ISO56005}
+\bibinfo{author}{{International Organization for Standardization}},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{ISO} 56005:2020 -- innovation management -- tools
+  and methods for intellectual property management -- guidance}.
+\newblock \bibinfo{note}{Geneva: ISO}.
+%Type = Misc
+\bibitem[{{International Test Commission}(2017)}]{ITC2017}
+\bibinfo{author}{{International Test Commission}}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{ITC} guidelines for translating and adapting tests
+  (second edition)}.
+\newblock \bibinfo{note}{Available at: \url{https://www.intestcom.org/}}.
+%Type = Book
+\bibitem[{Kuhn(1962)}]{Kuhn1962}
+\bibinfo{author}{Kuhn, T.S.}, \bibinfo{year}{1962}.
+\newblock \bibinfo{title}{The Structure of Scientific Revolutions}.
+\newblock \bibinfo{publisher}{University of Chicago Press},
+  \bibinfo{address}{Chicago}.
+%Type = Book
+\bibitem[{Lev(2001)}]{Lev2001}
+\bibinfo{author}{Lev, B.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Intangibles: Management, Measurement, and Reporting}.
+\newblock \bibinfo{publisher}{Brookings Institution Press},
+  \bibinfo{address}{Washington, DC}.
+%Type = Incollection
+\bibitem[{Liniger et~al.(2019)Liniger, Schwilch, Gurtner, Mekdaschi~Studer,
+  Hauert, van Lynden and Critchley}]{Liniger2019}
+\bibinfo{author}{Liniger, H.}, \bibinfo{author}{Schwilch, G.},
+  \bibinfo{author}{Gurtner, M.}, \bibinfo{author}{Mekdaschi~Studer, R.},
+  \bibinfo{author}{Hauert, C.}, \bibinfo{author}{van Lynden, G.},
+  \bibinfo{author}{Critchley, W.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{{WOCAT}: Questionnaire on sustainable land management
+  ({SLM}) technologies}, in: \bibinfo{booktitle}{WOCAT Global SLM Database}.
+  \bibinfo{publisher}{CDE, University of Bern}, \bibinfo{address}{Bern,
+  Switzerland}.
+\newblock \bibinfo{note}{Version 2019. Available at:
+  \url{https://www.wocat.net}}.
+%Type = Book
+\bibitem[{Maffi(2001)}]{Maffi2001}
+\bibinfo{author}{Maffi, L.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{On Biocultural Diversity: Linking Language,
+  Knowledge, and the Environment}.
+\newblock \bibinfo{publisher}{Smithsonian Institution Press},
+  \bibinfo{address}{Washington, DC}.
+%Type = Article
+\bibitem[{Mamdani and Assilian(1975)}]{Mamdani1975}
+\bibinfo{author}{Mamdani, E.H.}, \bibinfo{author}{Assilian, S.},
+  \bibinfo{year}{1975}.
+\newblock \bibinfo{title}{An experiment in linguistic synthesis with a fuzzy
+  logic controller}.
+\newblock \bibinfo{journal}{International Journal of Man-Machine Studies}
+  \bibinfo{volume}{7}, \bibinfo{pages}{1--13}.
+\newblock \DOIprefix\doi{10.1016/S0020-7373(75)80002-2}.
+%Type = Book
+\bibitem[{Mart{\'i}nez-Alier(2002)}]{MartinezAlier2002}
+\bibinfo{author}{Mart{\'i}nez-Alier, J.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{The Environmentalism of the Poor: A Study of
+  Ecological Conflicts and Valuation}.
+\newblock \bibinfo{publisher}{Edward Elgar}, \bibinfo{address}{Cheltenham}.
+%Type = Article
+\bibitem[{Miller et~al.(2008)Miller, Baird, Littlefield, Kofinas, Chapin~III
+  and Redman}]{Miller2008}
+\bibinfo{author}{Miller, T.R.}, \bibinfo{author}{Baird, T.D.},
+  \bibinfo{author}{Littlefield, C.M.}, \bibinfo{author}{Kofinas, G.},
+  \bibinfo{author}{Chapin~III, F.S.}, \bibinfo{author}{Redman, C.L.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Epistemological pluralism: Reorganizing
+  interdisciplinary research}.
+\newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{13},
+  \bibinfo{pages}{46}.
+%Type = Article
+\bibitem[{Morris(1991)}]{Morris1991}
+\bibinfo{author}{Morris, M.D.}, \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{Factorial sampling plans for preliminary
+  computational experiments}.
+\newblock \bibinfo{journal}{Technometrics} \bibinfo{volume}{33},
+  \bibinfo{pages}{161--174}.
+%Type = Article
+\bibitem[{Niemeijer and de~Groot(2008)}]{Niemeijer2008}
+\bibinfo{author}{Niemeijer, D.}, \bibinfo{author}{de~Groot, R.S.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{A conceptual framework for selecting environmental
+  indicator sets}.
+\newblock \bibinfo{journal}{Ecological Indicators} \bibinfo{volume}{8},
+  \bibinfo{pages}{14--25}.
+%Type = Book
+\bibitem[{Nonaka and Takeuchi(1995)}]{Nonaka1995}
+\bibinfo{author}{Nonaka, I.}, \bibinfo{author}{Takeuchi, H.},
+  \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{The Knowledge-Creating Company}.
+\newblock \bibinfo{publisher}{Oxford University Press}, \bibinfo{address}{New
+  York}.
+%Type = Book
+\bibitem[{Nunnally(1978)}]{Nunnally1978}
+\bibinfo{author}{Nunnally, J.C.}, \bibinfo{year}{1978}.
+\newblock \bibinfo{title}{Psychometric Theory}.
+\newblock \bibinfo{edition}{2} ed., \bibinfo{publisher}{McGraw-Hill},
+  \bibinfo{address}{New York}.
+%Type = Book
+\bibitem[{Ostrom(1990)}]{Ostrom1990}
+\bibinfo{author}{Ostrom, E.}, \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Governing the Commons: The Evolution of Institutions
+  for Collective Action}.
+\newblock \bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{Cambridge}.
+%Type = Book
+\bibitem[{Patton(2015)}]{Patton2015}
+\bibinfo{author}{Patton, M.Q.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Qualitative Research \& Evaluation Methods}.
+\newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{SAGE Publications},
+  \bibinfo{address}{Thousand Oaks, CA}.
+%Type = Book
+\bibitem[{Pearce and Turner(1990)}]{PearceTurner1990}
+\bibinfo{author}{Pearce, D.W.}, \bibinfo{author}{Turner, R.K.},
+  \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{Economics of Natural Resources and the Environment}.
+\newblock \bibinfo{publisher}{Johns Hopkins University Press},
+  \bibinfo{address}{Baltimore}.
+%Type = Article
+\bibitem[{Pike(1967)}]{Pike1967}
+\bibinfo{author}{Pike, K.L.}, \bibinfo{year}{1967}.
+\newblock \bibinfo{title}{Etic and emic standpoints for the description of
+  behavior}.
+\newblock \bibinfo{journal}{Language and Thought} ,
+  \bibinfo{pages}{28--36}\bibinfo{note}{In: D.C. Hildum (Ed.)}.
+%Type = Book
+\bibitem[{Polanyi(1966)}]{Polanyi1966}
+\bibinfo{author}{Polanyi, M.}, \bibinfo{year}{1966}.
+\newblock \bibinfo{title}{The Tacit Dimension}.
+\newblock \bibinfo{publisher}{Doubleday}, \bibinfo{address}{Garden City, NY}.
+%Type = Article
+\bibitem[{Pretty et~al.(2009)Pretty, Adams, Berkes, de~Athayde, Dudley, Hunn,
+  Maffi, Milton, Rapport, Robbins, Sterling, Stolton, Tsing, Vintinner and
+  Pilgrim}]{Pretty2009}
+\bibinfo{author}{Pretty, J.}, \bibinfo{author}{Adams, B.},
+  \bibinfo{author}{Berkes, F.}, \bibinfo{author}{de~Athayde, S.F.},
+  \bibinfo{author}{Dudley, N.}, \bibinfo{author}{Hunn, E.},
+  \bibinfo{author}{Maffi, L.}, \bibinfo{author}{Milton, K.},
+  \bibinfo{author}{Rapport, D.}, \bibinfo{author}{Robbins, P.},
+  \bibinfo{author}{Sterling, E.}, \bibinfo{author}{Stolton, S.},
+  \bibinfo{author}{Tsing, A.}, \bibinfo{author}{Vintinner, E.},
+  \bibinfo{author}{Pilgrim, S.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The intersections of biological diversity and
+  cultural diversity: Towards integration}.
+\newblock \bibinfo{journal}{Conservation and Society} \bibinfo{volume}{7},
+  \bibinfo{pages}{100--112}.
+%Type = Article
+\bibitem[{Quave and Pieroni(2015)}]{Quave2014}
+\bibinfo{author}{Quave, C.L.}, \bibinfo{author}{Pieroni, A.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{A reservoir of ethnobotanical knowledge informs
+  resilient food security and health strategies in the {Balkans}}.
+\newblock \bibinfo{journal}{Nature Plants} \bibinfo{volume}{1},
+  \bibinfo{pages}{14021}.
+\newblock \DOIprefix\doi{10.1038/nplants.2014.21}.
+%Type = Manual
+\bibitem[{{R Core Team}(2024)}]{RCore2024}
+\bibinfo{author}{{R Core Team}}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{R: A Language and Environment for Statistical
+  Computing}.
+\newblock \bibinfo{organization}{R Foundation for Statistical Computing}.
+  \bibinfo{address}{Vienna, Austria}.
+\newblock \URLprefix \url{https://www.R-project.org/}.
+%Type = Article
+\bibitem[{Rist and Dahdouh-Guebas(2006)}]{Rist2006}
+\bibinfo{author}{Rist, S.}, \bibinfo{author}{Dahdouh-Guebas, F.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Ethnosciences -- a step towards the integration of
   scientific and indigenous forms of knowledge in the management of natural
-  resources for the future, Environment, Development and Sustainability 8
-  (2006) 467--493.
-\newblock \href {http://dx.doi.org/10.1007/s10668-006-9050-7}
-  {\path{doi:10.1007/s10668-006-9050-7}}.
-
-\bibitem{Quave2014}
-C.~L. Quave, A.~Pieroni, A reservoir of ethnobotanical knowledge informs
-  resilient food security and health strategies in the {Balkans}, Nature Plants
-  1 (2015) 14021.
-\newblock \href {http://dx.doi.org/10.1038/nplants.2014.21}
-  {\path{doi:10.1038/nplants.2014.21}}.
-
-\bibitem{Almeida2011}
-A.~W. B.~d. Almeida, Quilombolas e novas etnias, Editora da Universidade
-  Estadual do Amazonas, Manaus, 2011.
-
-\bibitem{Santos2007}
-B.~d. Santos, Renovar a Teoria Crítica e Reinventar a Emancipação Social,
-  Boitempo, São Paulo, 2007.
-
-\bibitem{Guillemin1993}
-F.~Guillemin, C.~Bombardier, D.~Beaton, Cross-cultural adaptation of
-  health-related quality of life measures: literature review and proposed
-  guidelines, Journal of Clinical Epidemiology 46~(12) (1993) 1417--1432.
-\newblock \href {http://dx.doi.org/10.1016/0895-4356(93)90142-N}
-  {\path{doi:10.1016/0895-4356(93)90142-N}}.
-
-\bibitem{Edvinsson1997}
-L.~Edvinsson, M.~S. Malone, Intellectual Capital: Realizing Your Company's True
-  Value by Finding Its Hidden Brainpower, HarperBusiness, New York, 1997.
-
-\bibitem{Barney1991}
-J.~Barney, Firm resources and sustained competitive advantage, Journal of
-  Management 17~(1) (1991) 99--120.
-\newblock \href {http://dx.doi.org/10.1177/014920639101700108}
-  {\path{doi:10.1177/014920639101700108}}.
-
-\bibitem{Polanyi1966}
-M.~Polanyi, The Tacit Dimension, Doubleday, Garden City, NY, 1966.
-
-\bibitem{Beaton2000}
-D.~E. Beaton, C.~Bombardier, F.~Guillemin, M.~B. Ferraz, Guidelines for the
-  process of cross-cultural adaptation of self-report measures, Spine 25~(24)
-  (2000) 3186--3191.
-
-\bibitem{Pike1967}
-K.~L. Pike, Etic and emic standpoints for the description of behavior, Language
-  and Thought (1967) 28--36In: D.C. Hildum (Ed.).
-
-\bibitem{Nonaka1995}
-I.~Nonaka, H.~Takeuchi, The Knowledge-Creating Company, Oxford University
-  Press, New York, 1995.
-
-\bibitem{Smeets1999}
-E.~Smeets, R.~Weterings, Environmental indicators: Typology and overview, EEA
-  Technical Report 25 (1999) 1--19, european Environment Agency, Copenhagen.
-
-\bibitem{Linstone1975}
-H.~A. Linstone, M.~Turoff, The Delphi Method: Techniques and Applications,
-  Addison-Wesley, Reading, MA, 1975.
-
-\bibitem{Rowe1999}
-G.~Rowe, G.~Wright, The delphi technique as a forecasting tool: issues and
-  analysis, International Journal of Forecasting 15~(4) (1999) 353--375.
-\newblock \href {http://dx.doi.org/10.1016/S0169-2070(99)00018-7}
-  {\path{doi:10.1016/S0169-2070(99)00018-7}}.
-
-\bibitem{Hasson2000}
-F.~Hasson, S.~Keeney, H.~McKenna, Research guidelines for the {Delphi} survey
-  technique, Journal of Advanced Nursing 32~(4) (2000) 1008--1015.
-\newblock \href {http://dx.doi.org/10.1046/j.1365-2648.2000.t01-1-01567.x}
-  {\path{doi:10.1046/j.1365-2648.2000.t01-1-01567.x}}.
-
-\bibitem{Schmidt2014}
-R.~C. Schmidt, Managing {Delphi} surveys using nonparametric statistical
-  techniques, Decision Sciences 28~(3) (1997) 763--774.
-\newblock \href {http://dx.doi.org/10.1111/j.1540-5915.1997.tb01330.x}
-  {\path{doi:10.1111/j.1540-5915.1997.tb01330.x}}.
-
-\bibitem{VonDerGracht2012}
-H.~A. von~der Gracht, Consensus measurement in {Delphi} studies: Review and
-  implications for future quality assurance, Technological Forecasting and
-  Social Change 79~(8) (2012) 1525--1536.
-\newblock \href {http://dx.doi.org/10.1016/j.techfore.2012.04.013}
-  {\path{doi:10.1016/j.techfore.2012.04.013}}.
-
-\bibitem{Hernandez-Nieto2002}
-R.~A. Hern{\'a}ndez-Nieto, Contribuciones al an{\'a}lisis estad{\'i}stico,
-  Universidad de los Andes/IESINFO, M{\'e}rida, Venezuela, 2002.
-
-\bibitem{Ostrom1990}
-E.~Ostrom, Governing the Commons: The Evolution of Institutions for Collective
-  Action, Cambridge University Press, Cambridge, 1990.
-
-\bibitem{Altieri1995}
-M.~A. Altieri, Agroecology: The Science of Sustainable Agriculture, 2nd
-  Edition, Westview Press, Boulder, CO, 1995.
-
-\bibitem{ISO30401}
-{International Organization for Standardization}, {ISO} 30401:2018 -- knowledge
-  management systems -- requirements, geneva: ISO (2018).
-
-\bibitem{CohenLevinthal1990}
-W.~M. Cohen, D.~A. Levinthal, Absorptive capacity: A new perspective on
-  learning and innovation, Administrative Science Quarterly 35~(1) (1990)
-  128--152.
-\newblock \href {http://dx.doi.org/10.2307/2393553}
-  {\path{doi:10.2307/2393553}}.
-
-\bibitem{Creswell2018}
-J.~W. Creswell, J.~D. Creswell, Research Design: Qualitative, Quantitative, and
-  Mixed Methods Approaches, 5th Edition, SAGE Publications, Thousand Oaks, CA,
-  2018.
-
-\bibitem{ITC2017}
-{International Test Commission}, {ITC} guidelines for translating and adapting
-  tests (second edition), available at: \url{https://www.intestcom.org/}
-  (2017).
-
-\bibitem{Fleiss1971}
-J.~L. Fleiss, Measuring nominal scale agreement among many raters,
-  Psychological Bulletin 76~(5) (1971) 378--382.
-\newblock \href {http://dx.doi.org/10.1037/h0031619}
-  {\path{doi:10.1037/h0031619}}.
-
-\bibitem{Willis2005}
-G.~B. Willis, Cognitive Interviewing: A Tool for Improving Questionnaire
-  Design, Sage Publications, Thousand Oaks, CA, 2005.
-
-\bibitem{Patton2015}
-M.~Q. Patton, Qualitative Research \& Evaluation Methods, 4th Edition, SAGE
-  Publications, Thousand Oaks, CA, 2015.
-
-\bibitem{Braun2006}
-V.~Braun, V.~Clarke, Using thematic analysis in psychology, Qualitative
-  Research in Psychology 3~(2) (2006) 77--101.
-\newblock \href {http://dx.doi.org/10.1191/1478088706qp063oa}
-  {\path{doi:10.1191/1478088706qp063oa}}.
-
-\bibitem{RCore2024}
-{R Core Team}, \href{https://www.R-project.org/}{R: A Language and Environment
-  for Statistical Computing}, R Foundation for Statistical Computing, Vienna,
-  Austria (2024).
-\newline\urlprefix\url{https://www.R-project.org/}
-
-\bibitem{Morris1991}
-M.~D. Morris, Factorial sampling plans for preliminary computational
-  experiments, Technometrics 33~(2) (1991) 161--174.
-
-\bibitem{Campolongo2007}
-F.~Campolongo, J.~Cariboni, A.~Saltelli, An effective screening design for
-  sensitivity analysis of large models, Environmental Modelling \& Software
-  22~(10) (2007) 1509--1518.
-
-\bibitem{Glaser1967}
-B.~G. Glaser, A.~L. Strauss, The Discovery of Grounded Theory: Strategies for
-  Qualitative Research, Aldine, Chicago, 1967.
-
-\bibitem{Tidd2005}
-J.~Tidd, J.~R. Bessant, K.~Pavitt, Managing Innovation: Integrating
-  Technological, Market and Organizational Change, 3rd Edition, John Wiley \&
-  Sons, Chichester, 2005.
-
-\bibitem{Lev2001}
-B.~Lev, Intangibles: Management, Measurement, and Reporting, Brookings
-  Institution Press, Washington, DC, 2001.
-
-\bibitem{Belletti2015}
-G.~Belletti, A.~Marescotti, J.-M. Touzard, Geographical indications, public
-  goods, and sustainable development: The roles of actors' strategies and
-  public policies, World Development 98 (2017) 45--57.
-\newblock \href {http://dx.doi.org/10.1016/j.worlddev.2015.05.004}
-  {\path{doi:10.1016/j.worlddev.2015.05.004}}.
-
-\bibitem{Teece1986}
-D.~J. Teece, Profiting from technological innovation: Implications for
-  integration, collaboration, licensing and public policy, Research Policy
-  15~(6) (1986) 285--305.
-\newblock \href {http://dx.doi.org/10.1016/0048-7333(86)90027-2}
-  {\path{doi:10.1016/0048-7333(86)90027-2}}.
-
-\bibitem{ISO56005}
-{International Organization for Standardization}, {ISO} 56005:2020 --
-  innovation management -- tools and methods for intellectual property
-  management -- guidance, geneva: ISO (2020).
+  resources for the future}.
+\newblock \bibinfo{journal}{Environment, Development and Sustainability}
+  \bibinfo{volume}{8}, \bibinfo{pages}{467--493}.
+\newblock \DOIprefix\doi{10.1007/s10668-006-9050-7}.
+%Type = Book
+\bibitem[{Santos(2007)}]{Santos2007}
+\bibinfo{author}{Santos, B.d.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Renovar a Teoria Crítica e Reinventar a
+  Emancipação Social}.
+\newblock \bibinfo{publisher}{Boitempo}, \bibinfo{address}{São Paulo}.
+%Type = Article
+\bibitem[{Schmidt(1997)}]{Schmidt2014}
+\bibinfo{author}{Schmidt, R.C.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Managing {Delphi} surveys using nonparametric
+  statistical techniques}.
+\newblock \bibinfo{journal}{Decision Sciences} \bibinfo{volume}{28},
+  \bibinfo{pages}{763--774}.
+\newblock \DOIprefix\doi{10.1111/j.1540-5915.1997.tb01330.x}.
+%Type = Article
+\bibitem[{Schwilch et~al.(2012)Schwilch, Bachmann and Liniger}]{Schwilch2012}
+\bibinfo{author}{Schwilch, G.}, \bibinfo{author}{Bachmann, F.},
+  \bibinfo{author}{Liniger, H.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Appraising and selecting conservation measures to
+  mitigate desertification and land degradation based on stakeholder
+  participation and global best practices}.
+\newblock \bibinfo{journal}{Land Degradation \& Development}
+  \bibinfo{volume}{23}, \bibinfo{pages}{160--174}.
+\newblock \DOIprefix\doi{10.1002/ldr.1069}.
+%Type = Article
+\bibitem[{Smeets and Weterings(1999)}]{Smeets1999}
+\bibinfo{author}{Smeets, E.}, \bibinfo{author}{Weterings, R.},
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Environmental indicators: Typology and overview}.
+\newblock \bibinfo{journal}{EEA Technical Report} \bibinfo{volume}{25},
+  \bibinfo{pages}{1--19}.
+\newblock \bibinfo{note}{European Environment Agency, Copenhagen}.
+%Type = Book
+\bibitem[{Sveiby(1997)}]{Sveiby1997}
+\bibinfo{author}{Sveiby, K.E.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{The New Organizational Wealth: Managing and Measuring
+  Knowledge-Based Assets}.
+\newblock \bibinfo{publisher}{Berrett-Koehler Publishers},
+  \bibinfo{address}{San Francisco}.
+%Type = Book
+\bibitem[{{TEEB}(2010)}]{TEEB2010}
+\bibinfo{author}{{TEEB}}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The Economics of Ecosystems and Biodiversity:
+  Mainstreaming the Economics of Nature}.
+\newblock \bibinfo{publisher}{UNEP}, \bibinfo{address}{Geneva}.
+%Type = Article
+\bibitem[{Teece(1986)}]{Teece1986}
+\bibinfo{author}{Teece, D.J.}, \bibinfo{year}{1986}.
+\newblock \bibinfo{title}{Profiting from technological innovation: Implications
+  for integration, collaboration, licensing and public policy}.
+\newblock \bibinfo{journal}{Research Policy} \bibinfo{volume}{15},
+  \bibinfo{pages}{285--305}.
+\newblock \DOIprefix\doi{10.1016/0048-7333(86)90027-2}.
+%Type = Book
+\bibitem[{Tidd et~al.(2005)Tidd, Bessant and Pavitt}]{Tidd2005}
+\bibinfo{author}{Tidd, J.}, \bibinfo{author}{Bessant, J.R.},
+  \bibinfo{author}{Pavitt, K.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Managing Innovation: Integrating Technological,
+  Market and Organizational Change}.
+\newblock \bibinfo{edition}{3} ed., \bibinfo{publisher}{John Wiley \& Sons},
+  \bibinfo{address}{Chichester}.
+%Type = Book
+\bibitem[{Toledo and Barrera-Bassols(2008)}]{Toledo2008}
+\bibinfo{author}{Toledo, V.M.}, \bibinfo{author}{Barrera-Bassols, N.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{La Memoria Biocultural: La Importancia Ecológica de
+  las Sabidurías Tradicionales}.
+\newblock \bibinfo{publisher}{Icaria}, \bibinfo{address}{Barcelona}.
+%Type = Book
+\bibitem[{Willis(2005)}]{Willis2005}
+\bibinfo{author}{Willis, G.B.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Cognitive Interviewing: A Tool for Improving
+  Questionnaire Design}.
+\newblock \bibinfo{publisher}{Sage Publications}, \bibinfo{address}{Thousand
+  Oaks, CA}.
+%Type = Article
+\bibitem[{Zadeh(1965)}]{Zadeh1965}
+\bibinfo{author}{Zadeh, L.A.}, \bibinfo{year}{1965}.
+\newblock \bibinfo{title}{Fuzzy sets}.
+\newblock \bibinfo{journal}{Information and Control} \bibinfo{volume}{8},
+  \bibinfo{pages}{338--353}.
+\newblock \DOIprefix\doi{10.1016/S0019-9958(65)90241-X}.
 
 \end{thebibliography}
