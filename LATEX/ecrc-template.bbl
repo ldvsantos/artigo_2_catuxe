@@ -5,16 +5,28 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Nonaka1995}
-I.~Nonaka, H.~Takeuchi, The Knowledge-Creating Company, Oxford University
-  Press, New York, 1995.
+\bibitem{Costanza1997}
+R.~Costanza, R.~d'Arge, R.~de~Groot, S.~Farber, M.~Grasso, B.~Hannon,
+  K.~Limburg, S.~Naeem, R.~V. O'Neill, J.~Paruelo, R.~G. Raskin, P.~Sutton,
+  M.~van~den Belt, The value of the world's ecosystem services and natural
+  capital, Nature 387 (1997) 253--260.
+\newblock \href {http://dx.doi.org/10.1038/387253a0}
+  {\path{doi:10.1038/387253a0}}.
 
-\bibitem{CohenLevinthal1990}
-W.~M. Cohen, D.~A. Levinthal, Absorptive capacity: A new perspective on
-  learning and innovation, Administrative Science Quarterly 35~(1) (1990)
-  128--152.
-\newblock \href {http://dx.doi.org/10.2307/2393553}
-  {\path{doi:10.2307/2393553}}.
+\bibitem{Dale2001}
+V.~H. Dale, S.~C. Beyeler, Challenges in the development and use of ecological
+  indicators, Ecological Indicators 1~(1) (2001) 3--10.
+
+\bibitem{Berkes2017}
+F.~Berkes, Sacred Ecology, 4th Edition, Routledge, New York, 2017.
+
+\bibitem{Toledo2008}
+V.~M. Toledo, N.~Barrera-Bassols, La Memoria Biocultural: La Importancia
+  Ecológica de las Sabidurías Tradicionales, Icaria, Barcelona, 2008.
+
+\bibitem{Niemeijer2008}
+D.~Niemeijer, R.~S. de~Groot, A conceptual framework for selecting
+  environmental indicator sets, Ecological Indicators 8~(1) (2008) 14--25.
 
 \bibitem{Liniger2019}
 H.~Liniger, G.~Schwilch, M.~Gurtner, R.~Mekdaschi~Studer, C.~Hauert, G.~van
@@ -30,6 +42,13 @@ G.~Schwilch, F.~Bachmann, H.~Liniger, Appraising and selecting conservation
   Development 23~(2) (2012) 160--174.
 \newblock \href {http://dx.doi.org/10.1002/ldr.1069}
   {\path{doi:10.1002/ldr.1069}}.
+
+\bibitem{Herdman1999}
+M.~Herdman, J.~Fox-Rushby, X.~Badia, A model of equivalence in the cultural
+  adaptation of {HRQoL} instruments: the universalist approach, Quality of Life
+  Research 8~(4) (1999) 323--335.
+\newblock \href {http://dx.doi.org/10.1023/A:1008866418851}
+  {\path{doi:10.1023/A:1008866418851}}.
 
 \bibitem{Rist2006}
 S.~Rist, F.~Dahdouh-Guebas, Ethnosciences -- a step towards the integration of
@@ -54,17 +73,6 @@ A.~W. B.~d. Almeida, Quilombolas e novas etnias, Editora da Universidade
 B.~d. Santos, Renovar a Teoria Crítica e Reinventar a Emancipação Social,
   Boitempo, São Paulo, 2007.
 
-\bibitem{Toledo2008}
-V.~M. Toledo, N.~Barrera-Bassols, La Memoria Biocultural: La Importancia
-  Ecológica de las Sabidurías Tradicionales, Icaria, Barcelona, 2008.
-
-\bibitem{Herdman1999}
-M.~Herdman, J.~Fox-Rushby, X.~Badia, A model of equivalence in the cultural
-  adaptation of {HRQoL} instruments: the universalist approach, Quality of Life
-  Research 8~(4) (1999) 323--335.
-\newblock \href {http://dx.doi.org/10.1023/A:1008866418851}
-  {\path{doi:10.1023/A:1008866418851}}.
-
 \bibitem{Guillemin1993}
 F.~Guillemin, C.~Bombardier, D.~Beaton, Cross-cultural adaptation of
   health-related quality of life measures: literature review and proposed
@@ -76,12 +84,6 @@ F.~Guillemin, C.~Bombardier, D.~Beaton, Cross-cultural adaptation of
 L.~Edvinsson, M.~S. Malone, Intellectual Capital: Realizing Your Company's True
   Value by Finding Its Hidden Brainpower, HarperBusiness, New York, 1997.
 
-\bibitem{Pulic2000}
-A.~Pulic, {VAIC}\texttrademark{} -- an accounting tool for {IC} management,
-  International Journal of Technology Management 20~(5--8) (2000) 702--714.
-\newblock \href {http://dx.doi.org/10.1504/IJTM.2000.002891}
-  {\path{doi:10.1504/IJTM.2000.002891}}.
-
 \bibitem{Barney1991}
 J.~Barney, Firm resources and sustained competitive advantage, Journal of
   Management 17~(1) (1991) 99--120.
@@ -90,6 +92,23 @@ J.~Barney, Firm resources and sustained competitive advantage, Journal of
 
 \bibitem{Polanyi1966}
 M.~Polanyi, The Tacit Dimension, Doubleday, Garden City, NY, 1966.
+
+\bibitem{Beaton2000}
+D.~E. Beaton, C.~Bombardier, F.~Guillemin, M.~B. Ferraz, Guidelines for the
+  process of cross-cultural adaptation of self-report measures, Spine 25~(24)
+  (2000) 3186--3191.
+
+\bibitem{Pike1967}
+K.~L. Pike, Etic and emic standpoints for the description of behavior, Language
+  and Thought (1967) 28--36In: D.C. Hildum (Ed.).
+
+\bibitem{Nonaka1995}
+I.~Nonaka, H.~Takeuchi, The Knowledge-Creating Company, Oxford University
+  Press, New York, 1995.
+
+\bibitem{Smeets1999}
+E.~Smeets, R.~Weterings, Environmental indicators: Typology and overview, EEA
+  Technical Report 25 (1999) 1--19, european Environment Agency, Copenhagen.
 
 \bibitem{Linstone1975}
 H.~A. Linstone, M.~Turoff, The Delphi Method: Techniques and Applications,
@@ -100,26 +119,6 @@ G.~Rowe, G.~Wright, The delphi technique as a forecasting tool: issues and
   analysis, International Journal of Forecasting 15~(4) (1999) 353--375.
 \newblock \href {http://dx.doi.org/10.1016/S0169-2070(99)00018-7}
   {\path{doi:10.1016/S0169-2070(99)00018-7}}.
-
-\bibitem{Diamond2014}
-I.~R. Diamond, R.~C. Grant, B.~M. Feldman, P.~B. Pencharz, S.~C. Ling, A.~M.
-  Moore, P.~W. Wales, Defining consensus: a systematic review recommends
-  methodologic criteria for reporting of {Delphi} studies, Journal of Clinical
-  Epidemiology 67~(4) (2014) 401--409.
-\newblock \href {http://dx.doi.org/10.1016/j.jclinepi.2013.12.002}
-  {\path{doi:10.1016/j.jclinepi.2013.12.002}}.
-
-\bibitem{Pike1967}
-K.~L. Pike, Etic and emic standpoints for the description of behavior, Language
-  and Thought (1967) 28--36In: D.C. Hildum (Ed.).
-
-\bibitem{Beaton2000}
-D.~E. Beaton, C.~Bombardier, F.~Guillemin, M.~B. Ferraz, Guidelines for the
-  process of cross-cultural adaptation of self-report measures, Spine 25~(24)
-  (2000) 3186--3191.
-
-\bibitem{Berkes2017}
-F.~Berkes, Sacred Ecology, 4th Edition, Routledge, New York, 2017.
 
 \bibitem{Hasson2000}
 F.~Hasson, S.~Keeney, H.~McKenna, Research guidelines for the {Delphi} survey
@@ -155,6 +154,13 @@ M.~A. Altieri, Agroecology: The Science of Sustainable Agriculture, 2nd
 \bibitem{ISO30401}
 {International Organization for Standardization}, {ISO} 30401:2018 -- knowledge
   management systems -- requirements, geneva: ISO (2018).
+
+\bibitem{CohenLevinthal1990}
+W.~M. Cohen, D.~A. Levinthal, Absorptive capacity: A new perspective on
+  learning and innovation, Administrative Science Quarterly 35~(1) (1990)
+  128--152.
+\newblock \href {http://dx.doi.org/10.2307/2393553}
+  {\path{doi:10.2307/2393553}}.
 
 \bibitem{Creswell2018}
 J.~W. Creswell, J.~D. Creswell, Research Design: Qualitative, Quantitative, and
@@ -192,6 +198,15 @@ V.~Braun, V.~Clarke, Using thematic analysis in psychology, Qualitative
   Austria (2024).
 \newline\urlprefix\url{https://www.R-project.org/}
 
+\bibitem{Morris1991}
+M.~D. Morris, Factorial sampling plans for preliminary computational
+  experiments, Technometrics 33~(2) (1991) 161--174.
+
+\bibitem{Campolongo2007}
+F.~Campolongo, J.~Cariboni, A.~Saltelli, An effective screening design for
+  sensitivity analysis of large models, Environmental Modelling \& Software
+  22~(10) (2007) 1509--1518.
+
 \bibitem{Glaser1967}
 B.~G. Glaser, A.~L. Strauss, The Discovery of Grounded Theory: Strategies for
   Qualitative Research, Aldine, Chicago, 1967.
@@ -223,13 +238,5 @@ D.~J. Teece, Profiting from technological innovation: Implications for
 {International Organization for Standardization}, {ISO} 56005:2020 --
   innovation management -- tools and methods for intellectual property
   management -- guidance, geneva: ISO (2020).
-
-\bibitem{Costanza1997}
-R.~Costanza, R.~d'Arge, R.~de~Groot, S.~Farber, M.~Grasso, B.~Hannon,
-  K.~Limburg, S.~Naeem, R.~V. O'Neill, J.~Paruelo, R.~G. Raskin, P.~Sutton,
-  M.~van~den Belt, The value of the world's ecosystem services and natural
-  capital, Nature 387 (1997) 253--260.
-\newblock \href {http://dx.doi.org/10.1038/387253a0}
-  {\path{doi:10.1038/387253a0}}.
 
 \end{thebibliography}

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ecrc-template"] 1770566759.17123 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770566773.25245 0
+["bibtex ecrc-template"] 1770568397.28422 "ecrc-template.aux" "ecrc-template.bbl" "ecrc-template" 1770568411.62232 0
   "./elsarticle-num.bst" 1770548009 29353 cbd593ca59c003368735a9d8dbd22298 ""
-  "./references.bib" 1770566729 16445 1cfee6ac55f7899e788d8bbf0b8ea307 ""
-  "ecrc-template.aux" 1770566771 9317 44d88e784c5b2a53696fe648f69ac896 "pdflatex"
+  "./references.bib" 1770568388 17892 039fa00fb5972926bab6f421aeb57047 ""
+  "ecrc-template.aux" 1770568410 9884 2533b8344319662d574b5d05bcdb6de5 "pdflatex"
   (generated)
   "ecrc-template.bbl"
   "ecrc-template.blg"
   (rewritten before read)
-["pdflatex"] 1770566760.21613 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770566773.25386 0
+["pdflatex"] 1770568398.47957 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" "ecrc-template.pdf" "ecrc-template" 1770568411.6235 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136783054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -209,12 +209,12 @@
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxmia.fd" 977342760 334 87436a82076ca2e35cd305f852507afc ""
   "C:/Users/vidal/AppData/Roaming/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977342760 310 4b5d6fe830337242ef847b3bff48ba21 ""
   "SDlogo-3p.pdf" 1770548009 32832 4c44d6c52fa62ecd42842252126ea898 ""
-  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770566736 46434 3ee33542b9f2aced6679a360a3589807 ""
-  "ecrc-template.aux" 1770566771 9317 44d88e784c5b2a53696fe648f69ac896 "pdflatex"
-  "ecrc-template.bbl" 1770566760 10020 0c673b5339a5641804f7b4586ede630a "bibtex ecrc-template"
-  "ecrc-template.out" 1770566771 7574 d8c13358143291413ba28248fa581cc2 "pdflatex"
-  "ecrc-template.spl" 1770566767 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ecrc-template.tex" 1770566736 46434 3ee33542b9f2aced6679a360a3589807 ""
+  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_2_catuxe/LATEX/ecrc-template.tex" 1770568397 51963 e82a02792e79f9e54c176b6c38f0b1b4 ""
+  "ecrc-template.aux" 1770568410 9884 2533b8344319662d574b5d05bcdb6de5 "pdflatex"
+  "ecrc-template.bbl" 1770568407 10196 27061e45841e50dbf027436105e5d627 "bibtex ecrc-template"
+  "ecrc-template.out" 1770568410 8061 dfa0f92dd5f46509dabeac20cc2a88e1 "pdflatex"
+  "ecrc-template.spl" 1770568408 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ecrc-template.tex" 1770568397 51963 e82a02792e79f9e54c176b6c38f0b1b4 ""
   "ecrc.sty" 1770548009 9851 bd6cc48423129411a0ccc52c8fda0e99 ""
   "elsarticle.cls" 1770548009 26250 93bcb641d1d601908e89f8b8c60ceeeb ""
   "elsevier-logo-3p.pdf" 1770548009 1496269 6d2701b6d282a90964ce5f7ec8b6bdcf ""
