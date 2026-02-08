@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.27)  8 FEB 2026 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.27)  8 FEB 2026 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,83 +1014,89 @@ LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
-Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
-
-(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-\c@r@tfl@t=\count347
-\rotFPtop=\skip62
-\rotFPbot=\skip63
-\rot@float@box=\box73
-\rot@mess@toks=\toks41
+(C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+\linenopenalty=\count347
+\output=\toks41
+\linenoprevgraf=\count348
+\linenumbersep=\dimen304
+\linenumberwidth=\dimen305
+\c@linenumber=\count349
+\c@pagewiselinenumber=\count350
+\c@LN@truepage=\count351
+\c@internallinenumber=\count352
+\c@internallinenumbers=\count353
+\quotelinenumbersep=\dimen306
+\bframerule=\dimen307
+\bframesep=\dimen308
+\bframebox=\box73
+\@LN@amsmath@ams@eqpen=\count354
 )
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count348
+\l__color_backend_stack_int=\count355
 )
 (ecrc-template.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 16.
+(babel)             Reported on input line 15.
 )
 \openout1 = `ecrc-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 142.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 141.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-142.
+141.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 141.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-142.
+141.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 141.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-142.
+141.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 141.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-42.
+41.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen304
+\scratchcounter=\count356
+\scratchdimen=\dimen309
 \scratchbox=\box74
-\nofMPsegments=\count350
-\nofMParguments=\count351
+\nofMPsegments=\count357
+\nofMParguments=\count358
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen305
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
+\MPscratchCnt=\count359
+\MPscratchDim=\dimen310
+\MPnumerator=\count360
+\makeMPintoPDFobject=\count361
 \everyMPtoPDFconversion=\toks43
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1137,79 +1143,82 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line
- 142.
-Package hyperref Info: Link coloring OFF on input line 142.
+ 141.
+Package hyperref Info: Link coloring OFF on input line 141.
 (ecrc-template.out) (ecrc-template.out)
 \@outlinefile=\write5
 \openout5 = `ecrc-template.out'.
 
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 181.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 180.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-82.
+81.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-82.
+81.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 182
+LaTeX Font Info:    Trying to load font information for U+msa on input line 181
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 182
+LaTeX Font Info:    Trying to load font information for U+msb on input line 181
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-82.
+81.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-83.
+82.
 
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 189.
-LaTeX Font Info:    Calculating math sizes for size <9.09996> on input line 189
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 188.
+LaTeX Font Info:    Calculating math sizes for size <9.09996> on input line 188
 .
-
-
-<elsevier-logo-3p.pdf, id=144, 54.08205pt x 59.7432pt>
-File: elsevier-logo-3p.pdf Graphic file (type pdf)
-<use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 198.
-(pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
-<SDlogo-3p.pdf, id=145, 169.8345pt x 33.9669pt>
-File: SDlogo-3p.pdf Graphic file (type pdf)
-<use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 198.
-(pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 LaTeX Font Info:    Trying to load font information for T1+txss on input line 1
-98.
+93.
+
 (C:\Users\vidal\AppData\Roaming\MiKTeX\tex/latex/txfonts\t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 198.
+(Font)              scaled to size 4.74998pt on input line 193.
+
+
+<elsevier-logo-3p.pdf, id=139, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 198.
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 199.
+(pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
+<SDlogo-3p.pdf, id=140, 169.8345pt x 33.9669pt>
+File: SDlogo-3p.pdf Graphic file (type pdf)
+<use SDlogo-3p.pdf>
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 199.
+(pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 17.09995pt on input line 199.
+File: elsevier-logo-3p.pdf Graphic file (type pdf)
+<use elsevier-logo-3p.pdf>
+Package pdftex.def Info: elsevier-logo-3p.pdf  used on input line 199.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: SDlogo-3p.pdf Graphic file (type pdf)
 <use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 198.
+Package pdftex.def Info: SDlogo-3p.pdf  used on input line 199.
 (pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1229,88 +1238,87 @@ Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 [3]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 250.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 253.
 
-Underfull \hbox (badness 3612) in paragraph at lines 252--253
+Underfull \hbox (badness 3612) in paragraph at lines 255--256
 []\T1/txr/m/n/9 Autenticidade, sig-ni-fi-cado ri-tual,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 []\T1/txr/m/n/9 Agrobiodiversidade, re-si-li-ên-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []\T1/txr/m/n/9 Econômica-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 258--258
 []\T1/txr/m/n/9 Institucional-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 255--255
+Underfull \hbox (badness 1377) in paragraph at lines 258--258
 []\T1/txr/m/n/9 Ÿ5.6 Ca-rac-te-rís-ti-cas; Ÿ5.8
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 257--257
+Underfull \hbox (badness 4608) in paragraph at lines 260--260
 []\T1/txr/m/n/9 Ÿ5.9 In-fra-es-tru-tura; Ÿ6.1
  []
 
 
 
 [4]
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 306.
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <7> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 316.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 354.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 354.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 354.
+
+
 
 [5]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 364.
+
+
+
 [6]
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 311.
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <7> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 321.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 369.
-
-
 
 [7]
-
-[8]
-Overfull \hbox (7.59018pt too wide) in paragraph at lines 433--434
+Overfull \hbox (7.59018pt too wide) in paragraph at lines 428--429
 []\T1/txr/m/n/10 Para ava-liar a ro-bus-tez nu-mé-rica do in-di-ca-dor com-post
 o frente a in-cer-te-zas nos pa-râ-me-tros de per-ti-nên-cia, empregou-
  []
 
 
 
-[9]
+[8]
 
-[10] (ecrc-template.bbl
+[9] (ecrc-template.bbl
 Underfull \hbox (badness 1057) in paragraph at lines 22--29
 []\T1/txr/m/n/8 Barney, J., 1991.  Firm re-sour-ces and sus-tai-ned com-pe-ti-t
 ive ad-van-tage.  Jour-nal of Ma-na-ge-ment 17, 99--120.  doi:[]$\T1/cmtt/m/n/8
@@ -1319,26 +1327,24 @@ ive ad-van-tage.  Jour-nal of Ma-na-ge-ment 17, 99--120.  doi:[]$\T1/cmtt/m/n/8
 
 
 
-[11]
+[10])
 
-[12])
-
-[13] (ecrc-template.aux)
+[11] (ecrc-template.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `ecrc-template.out' has not changed.
-(rerunfilecheck)             Checksum: 1DF0AEF85A491B39419AD9C44690ECC5;8855.
+(rerunfilecheck)             Checksum: 0DB4309D930579700FAEA6B219E6CBEC;8411.
  ) 
 Here is how much of TeX's memory you used:
- 25626 strings out of 468081
- 465199 string characters out of 5435855
- 881743 words of memory out of 5000000
- 53704 multiletter control sequences out of 15000+600000
- 722431 words of font info for 215 fonts, out of 8000000 for 9000
+ 25762 strings out of 468081
+ 467790 string characters out of 5435855
+ 886195 words of memory out of 5000000
+ 53840 multiletter control sequences out of 15000+600000
+ 725558 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,87p,2095b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,87p,1632b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1000.pk> <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt0800.pk><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts
@@ -1349,9 +1355,9 @@ pfb><C:/Users/vidal/AppData/Roaming/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb>
 Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ecrc-template.pdf (13 pages, 266844 bytes).
+Output written on ecrc-template.pdf (11 pages, 261354 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
+ 534 PDF objects out of 1000 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
