@@ -186,6 +186,12 @@ V.~Braun, V.~Clarke, Using thematic analysis in psychology, Qualitative
 \newblock \href {http://dx.doi.org/10.1191/1478088706qp063oa}
   {\path{doi:10.1191/1478088706qp063oa}}.
 
+\bibitem{RCore2024}
+{R Core Team}, \href{https://www.R-project.org/}{R: A Language and Environment
+  for Statistical Computing}, R Foundation for Statistical Computing, Vienna,
+  Austria (2024).
+\newline\urlprefix\url{https://www.R-project.org/}
+
 \bibitem{Glaser1967}
 B.~G. Glaser, A.~L. Strauss, The Discovery of Grounded Theory: Strategies for
   Qualitative Research, Aldine, Chicago, 1967.
